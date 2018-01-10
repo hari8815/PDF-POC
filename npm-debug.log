@@ -1,0 +1,2899 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'lwip' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData lwip
+8 silly fetchNamedPackageData lwip
+9 silly mapToRegistry name lwip
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'lwip',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'lwip',
+12 silly mapToRegistry   name: 'lwip',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/lwip
+14 verbose request uri https://registry.npmjs.org/lwip
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:24:23 PM
+17 verbose request id da84d591c59de76e
+18 verbose etag W/"59df880f-9f44"
+19 verbose lastModified Thu, 12 Oct 2017 15:19:43 GMT
+20 http request GET https://registry.npmjs.org/lwip
+21 http 304 https://registry.npmjs.org/lwip
+22 verbose headers { date: 'Mon, 20 Nov 2017 11:54:23 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"59df880f-9f44"',
+22 verbose headers   age: '219',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1511178864.772714,VS0,VE1',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Mon, 20 Nov 2017 11:54:23 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"59df880f-9f44"',
+23 silly get     age: '219',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lhr6332-LHR',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1511178864.772714,VS0,VE1',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/lwip from cache
+25 verbose get saving lwip to /Users/softsquare/.npm/registry.npmjs.org/lwip/.cache.json
+26 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule lwip@0.0.9 checking installable status
+40 silly cache add args [ 'lwip', null ]
+41 verbose cache add spec lwip
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'lwip',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'lwip',
+42 silly cache add   name: 'lwip',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed lwip@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for lwip
+45 info addNameTag [ 'lwip', 'latest' ]
+46 silly mapToRegistry name lwip
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'lwip',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'lwip',
+49 silly mapToRegistry   name: 'lwip',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/lwip
+51 verbose addNameTag registry:https://registry.npmjs.org/lwip not in flight; fetching
+52 verbose get https://registry.npmjs.org/lwip not expired, no request
+53 silly addNameTag next cb for lwip with tag latest
+54 silly addNamed lwip@0.0.9
+55 verbose addNamed "0.0.9" is a plain semver version for lwip
+56 silly mapToRegistry name lwip
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'lwip',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'lwip',
+59 silly mapToRegistry   name: 'lwip',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/lwip
+61 verbose addRemoteTarball https://registry.npmjs.org/lwip/-/lwip-0.0.9.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/lwip/-/lwip-0.0.9.tgz',
+62 verbose addRemoteTarball   '28b4169835d27ca29325e75fd1b883ae37b50fcc' ]
+63 info retry fetch attempt 1 at 5:24:24 PM
+64 info attempt registry request try #1 at 5:24:24 PM
+65 http fetch GET https://registry.npmjs.org/lwip/-/lwip-0.0.9.tgz
+66 http fetch 200 https://registry.npmjs.org/lwip/-/lwip-0.0.9.tgz
+67 silly fetchAndShaCheck shasum 28b4169835d27ca29325e75fd1b883ae37b50fcc
+68 verbose addTmpTarball /var/folders/km/vk_p5jmd7yd62xt9hxq86s8c0000gn/T/npm-4684-817d5148/registry.npmjs.org/lwip/-/lwip-0.0.9.tgz not in flight; adding
+69 verbose addTmpTarball already have metadata; skipping unpack for lwip@0.0.9
+70 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+71 silly cache afterAdd lwip@0.0.9
+72 verbose afterAdd /Users/softsquare/.npm/lwip/0.0.9/package/package.json not in flight; writing
+73 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+74 verbose afterAdd /Users/softsquare/.npm/lwip/0.0.9/package/package.json written
+75 silly fetchNamedPackageData async
+76 silly mapToRegistry name async
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry data Result {
+79 silly mapToRegistry   raw: 'async',
+79 silly mapToRegistry   scope: null,
+79 silly mapToRegistry   escapedName: 'async',
+79 silly mapToRegistry   name: 'async',
+79 silly mapToRegistry   rawSpec: '',
+79 silly mapToRegistry   spec: 'latest',
+79 silly mapToRegistry   type: 'tag' }
+80 silly mapToRegistry uri https://registry.npmjs.org/async
+81 silly fetchNamedPackageData bindings
+82 silly mapToRegistry name bindings
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'bindings',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   escapedName: 'bindings',
+85 silly mapToRegistry   name: 'bindings',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/bindings
+87 silly fetchNamedPackageData decree
+88 silly mapToRegistry name decree
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'decree',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   escapedName: 'decree',
+91 silly mapToRegistry   name: 'decree',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri https://registry.npmjs.org/decree
+93 verbose request uri https://registry.npmjs.org/bindings
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 5:24:26 PM
+96 http request GET https://registry.npmjs.org/bindings
+97 verbose request uri https://registry.npmjs.org/decree
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 5:24:26 PM
+100 http request GET https://registry.npmjs.org/decree
+101 verbose request uri https://registry.npmjs.org/async
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 5:24:26 PM
+104 verbose etag W/"5a120311-2314e"
+105 verbose lastModified Sun, 19 Nov 2017 22:17:53 GMT
+106 http request GET https://registry.npmjs.org/async
+107 http 200 https://registry.npmjs.org/bindings
+108 verbose headers { server: 'nginx/1.10.1',
+108 verbose headers   'content-type': 'application/json',
+108 verbose headers   'last-modified': 'Fri, 08 Sep 2017 12:19:32 GMT',
+108 verbose headers   etag: 'W/"59b28ad4-4c18"',
+108 verbose headers   'content-encoding': 'gzip',
+108 verbose headers   'cache-control': 'max-age=300',
+108 verbose headers   'content-length': '3855',
+108 verbose headers   'accept-ranges': 'bytes',
+108 verbose headers   date: 'Mon, 20 Nov 2017 11:54:26 GMT',
+108 verbose headers   via: '1.1 varnish',
+108 verbose headers   age: '262',
+108 verbose headers   connection: 'keep-alive',
+108 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+108 verbose headers   'x-cache': 'HIT',
+108 verbose headers   'x-cache-hits': '1',
+108 verbose headers   'x-timer': 'S1511178867.915245,VS0,VE0',
+108 verbose headers   vary: 'Accept-Encoding, Accept' }
+109 silly get cb [ 200,
+109 silly get   { server: 'nginx/1.10.1',
+109 silly get     'content-type': 'application/json',
+109 silly get     'last-modified': 'Fri, 08 Sep 2017 12:19:32 GMT',
+109 silly get     etag: 'W/"59b28ad4-4c18"',
+109 silly get     'content-encoding': 'gzip',
+109 silly get     'cache-control': 'max-age=300',
+109 silly get     'content-length': '3855',
+109 silly get     'accept-ranges': 'bytes',
+109 silly get     date: 'Mon, 20 Nov 2017 11:54:26 GMT',
+109 silly get     via: '1.1 varnish',
+109 silly get     age: '262',
+109 silly get     connection: 'keep-alive',
+109 silly get     'x-served-by': 'cache-lhr6332-LHR',
+109 silly get     'x-cache': 'HIT',
+109 silly get     'x-cache-hits': '1',
+109 silly get     'x-timer': 'S1511178867.915245,VS0,VE0',
+109 silly get     vary: 'Accept-Encoding, Accept' } ]
+110 verbose get saving bindings to /Users/softsquare/.npm/registry.npmjs.org/bindings/.cache.json
+111 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+112 silly resolveWithNewModule bindings@1.3.0 checking installable status
+113 silly cache add args [ 'bindings@^1.2.1', null ]
+114 verbose cache add spec bindings@^1.2.1
+115 silly cache add parsed spec Result {
+115 silly cache add   raw: 'bindings@^1.2.1',
+115 silly cache add   scope: null,
+115 silly cache add   escapedName: 'bindings',
+115 silly cache add   name: 'bindings',
+115 silly cache add   rawSpec: '^1.2.1',
+115 silly cache add   spec: '>=1.2.1 <2.0.0',
+115 silly cache add   type: 'range' }
+116 silly addNamed bindings@>=1.2.1 <2.0.0
+117 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for bindings
+118 silly addNameRange { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: false }
+119 silly mapToRegistry name bindings
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'bindings',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   escapedName: 'bindings',
+122 silly mapToRegistry   name: 'bindings',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri https://registry.npmjs.org/bindings
+124 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+125 verbose get https://registry.npmjs.org/bindings not expired, no request
+126 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: true }
+127 silly addNameRange versions [ 'bindings',
+127 silly addNameRange   [ '0.0.1',
+127 silly addNameRange     '0.1.0',
+127 silly addNameRange     '0.1.1',
+127 silly addNameRange     '0.2.0',
+127 silly addNameRange     '0.2.1',
+127 silly addNameRange     '0.2.2',
+127 silly addNameRange     '0.2.3',
+127 silly addNameRange     '0.2.4',
+127 silly addNameRange     '0.3.0',
+127 silly addNameRange     '0.4.0',
+127 silly addNameRange     '1.0.0',
+127 silly addNameRange     '1.1.0',
+127 silly addNameRange     '1.1.1',
+127 silly addNameRange     '1.2.0',
+127 silly addNameRange     '1.2.1',
+127 silly addNameRange     '1.3.0' ] ]
+128 silly addNamed bindings@1.3.0
+129 verbose addNamed "1.3.0" is a plain semver version for bindings
+130 silly mapToRegistry name bindings
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry data Result {
+133 silly mapToRegistry   raw: 'bindings',
+133 silly mapToRegistry   scope: null,
+133 silly mapToRegistry   escapedName: 'bindings',
+133 silly mapToRegistry   name: 'bindings',
+133 silly mapToRegistry   rawSpec: '',
+133 silly mapToRegistry   spec: 'latest',
+133 silly mapToRegistry   type: 'tag' }
+134 silly mapToRegistry uri https://registry.npmjs.org/bindings
+135 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz not in flight; adding
+136 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz',
+136 verbose addRemoteTarball   'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7' ]
+137 info retry fetch attempt 1 at 5:24:27 PM
+138 info attempt registry request try #1 at 5:24:27 PM
+139 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+140 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+141 silly fetchAndShaCheck shasum b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7
+142 verbose addTmpTarball /var/folders/km/vk_p5jmd7yd62xt9hxq86s8c0000gn/T/npm-4684-817d5148/registry.npmjs.org/bindings/-/bindings-1.3.0.tgz not in flight; adding
+143 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.3.0
+144 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+145 silly cache afterAdd bindings@1.3.0
+146 verbose afterAdd /Users/softsquare/.npm/bindings/1.3.0/package/package.json not in flight; writing
+147 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+148 verbose afterAdd /Users/softsquare/.npm/bindings/1.3.0/package/package.json written
+149 http 304 https://registry.npmjs.org/async
+150 verbose headers { date: 'Mon, 20 Nov 2017 11:54:27 GMT',
+150 verbose headers   via: '1.1 varnish',
+150 verbose headers   'cache-control': 'max-age=300',
+150 verbose headers   etag: 'W/"5a120311-2314e"',
+150 verbose headers   age: '207',
+150 verbose headers   connection: 'keep-alive',
+150 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+150 verbose headers   'x-cache': 'HIT',
+150 verbose headers   'x-cache-hits': '14',
+150 verbose headers   'x-timer': 'S1511178867.241694,VS0,VE0',
+150 verbose headers   vary: 'Accept-Encoding, Accept' }
+151 silly get cb [ 304,
+151 silly get   { date: 'Mon, 20 Nov 2017 11:54:27 GMT',
+151 silly get     via: '1.1 varnish',
+151 silly get     'cache-control': 'max-age=300',
+151 silly get     etag: 'W/"5a120311-2314e"',
+151 silly get     age: '207',
+151 silly get     connection: 'keep-alive',
+151 silly get     'x-served-by': 'cache-lhr6327-LHR',
+151 silly get     'x-cache': 'HIT',
+151 silly get     'x-cache-hits': '14',
+151 silly get     'x-timer': 'S1511178867.241694,VS0,VE0',
+151 silly get     vary: 'Accept-Encoding, Accept' } ]
+152 verbose etag https://registry.npmjs.org/async from cache
+153 verbose get saving async to /Users/softsquare/.npm/registry.npmjs.org/async/.cache.json
+154 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+155 http 200 https://registry.npmjs.org/decree
+156 verbose headers { server: 'nginx/1.10.1',
+156 verbose headers   'content-type': 'application/json',
+156 verbose headers   'last-modified': 'Tue, 14 Oct 2014 15:04:15 GMT',
+156 verbose headers   etag: 'W/"543d3b6f-3b42"',
+156 verbose headers   'content-encoding': 'gzip',
+156 verbose headers   'cache-control': 'max-age=300',
+156 verbose headers   'content-length': '3976',
+156 verbose headers   'accept-ranges': 'bytes',
+156 verbose headers   date: 'Mon, 20 Nov 2017 11:54:27 GMT',
+156 verbose headers   via: '1.1 varnish',
+156 verbose headers   age: '214',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+156 verbose headers   'x-cache': 'HIT',
+156 verbose headers   'x-cache-hits': '1',
+156 verbose headers   'x-timer': 'S1511178867.233509,VS0,VE0',
+156 verbose headers   vary: 'Accept-Encoding, Accept' }
+157 silly get cb [ 200,
+157 silly get   { server: 'nginx/1.10.1',
+157 silly get     'content-type': 'application/json',
+157 silly get     'last-modified': 'Tue, 14 Oct 2014 15:04:15 GMT',
+157 silly get     etag: 'W/"543d3b6f-3b42"',
+157 silly get     'content-encoding': 'gzip',
+157 silly get     'cache-control': 'max-age=300',
+157 silly get     'content-length': '3976',
+157 silly get     'accept-ranges': 'bytes',
+157 silly get     date: 'Mon, 20 Nov 2017 11:54:27 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     age: '214',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-served-by': 'cache-lhr6321-LHR',
+157 silly get     'x-cache': 'HIT',
+157 silly get     'x-cache-hits': '1',
+157 silly get     'x-timer': 'S1511178867.233509,VS0,VE0',
+157 silly get     vary: 'Accept-Encoding, Accept' } ]
+158 verbose get saving decree to /Users/softsquare/.npm/registry.npmjs.org/decree/.cache.json
+159 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+160 silly resolveWithNewModule decree@0.0.6 checking installable status
+161 silly cache add args [ 'decree@0.0.6', null ]
+162 verbose cache add spec decree@0.0.6
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'decree@0.0.6',
+163 silly cache add   scope: null,
+163 silly cache add   escapedName: 'decree',
+163 silly cache add   name: 'decree',
+163 silly cache add   rawSpec: '0.0.6',
+163 silly cache add   spec: '0.0.6',
+163 silly cache add   type: 'version' }
+164 silly addNamed decree@0.0.6
+165 verbose addNamed "0.0.6" is a plain semver version for decree
+166 silly mapToRegistry name decree
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: 'decree',
+169 silly mapToRegistry   scope: null,
+169 silly mapToRegistry   escapedName: 'decree',
+169 silly mapToRegistry   name: 'decree',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/decree
+171 verbose addNameVersion registry:https://registry.npmjs.org/decree not in flight; fetching
+172 verbose get https://registry.npmjs.org/decree not expired, no request
+173 silly mapToRegistry name decree
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'decree',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   escapedName: 'decree',
+176 silly mapToRegistry   name: 'decree',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/decree
+178 verbose addRemoteTarball https://registry.npmjs.org/decree/-/decree-0.0.6.tgz not in flight; adding
+179 verbose addRemoteTarball [ 'https://registry.npmjs.org/decree/-/decree-0.0.6.tgz',
+179 verbose addRemoteTarball   '47efef0ed600d726ea8640345dc4961d0fa54cdd' ]
+180 info retry fetch attempt 1 at 5:24:27 PM
+181 info attempt registry request try #1 at 5:24:27 PM
+182 http fetch GET https://registry.npmjs.org/decree/-/decree-0.0.6.tgz
+183 silly resolveWithNewModule async@2.6.0 checking installable status
+184 silly cache add args [ 'async@^2.0.0-rc.5', null ]
+185 verbose cache add spec async@^2.0.0-rc.5
+186 silly cache add parsed spec Result {
+186 silly cache add   raw: 'async@^2.0.0-rc.5',
+186 silly cache add   scope: null,
+186 silly cache add   escapedName: 'async',
+186 silly cache add   name: 'async',
+186 silly cache add   rawSpec: '^2.0.0-rc.5',
+186 silly cache add   spec: '>=2.0.0-rc.5 <3.0.0',
+186 silly cache add   type: 'range' }
+187 silly addNamed async@>=2.0.0-rc.5 <3.0.0
+188 verbose addNamed ">=2.0.0-rc.5 <3.0.0" is a valid semver range for async
+189 silly addNameRange { name: 'async', range: '>=2.0.0-rc.5 <3.0.0', hasData: false }
+190 silly mapToRegistry name async
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry data Result {
+193 silly mapToRegistry   raw: 'async',
+193 silly mapToRegistry   scope: null,
+193 silly mapToRegistry   escapedName: 'async',
+193 silly mapToRegistry   name: 'async',
+193 silly mapToRegistry   rawSpec: '',
+193 silly mapToRegistry   spec: 'latest',
+193 silly mapToRegistry   type: 'tag' }
+194 silly mapToRegistry uri https://registry.npmjs.org/async
+195 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+196 verbose get https://registry.npmjs.org/async not expired, no request
+197 silly addNameRange number 2 { name: 'async', range: '>=2.0.0-rc.5 <3.0.0', hasData: true }
+198 silly addNameRange versions [ 'async',
+198 silly addNameRange   [ '0.1.0',
+198 silly addNameRange     '0.1.1',
+198 silly addNameRange     '0.1.2',
+198 silly addNameRange     '0.1.3',
+198 silly addNameRange     '0.1.4',
+198 silly addNameRange     '0.1.5',
+198 silly addNameRange     '0.1.6',
+198 silly addNameRange     '0.1.7',
+198 silly addNameRange     '0.1.8',
+198 silly addNameRange     '0.1.9',
+198 silly addNameRange     '0.1.10',
+198 silly addNameRange     '0.1.11',
+198 silly addNameRange     '0.1.12',
+198 silly addNameRange     '0.1.13',
+198 silly addNameRange     '0.1.14',
+198 silly addNameRange     '0.1.15',
+198 silly addNameRange     '0.1.16',
+198 silly addNameRange     '0.1.17',
+198 silly addNameRange     '0.1.18',
+198 silly addNameRange     '0.1.19',
+198 silly addNameRange     '0.1.20',
+198 silly addNameRange     '0.1.21',
+198 silly addNameRange     '0.1.22',
+198 silly addNameRange     '0.2.0',
+198 silly addNameRange     '0.2.1',
+198 silly addNameRange     '0.2.2',
+198 silly addNameRange     '0.2.3',
+198 silly addNameRange     '0.2.4',
+198 silly addNameRange     '0.2.5',
+198 silly addNameRange     '0.2.6',
+198 silly addNameRange     '0.2.7',
+198 silly addNameRange     '0.2.8',
+198 silly addNameRange     '0.2.9',
+198 silly addNameRange     '0.2.10',
+198 silly addNameRange     '0.3.0',
+198 silly addNameRange     '0.4.0',
+198 silly addNameRange     '0.4.1',
+198 silly addNameRange     '0.5.0',
+198 silly addNameRange     '0.6.0',
+198 silly addNameRange     '0.6.1',
+198 silly addNameRange     '0.6.2',
+198 silly addNameRange     '0.7.0',
+198 silly addNameRange     '0.8.0',
+198 silly addNameRange     '0.9.0',
+198 silly addNameRange     '0.9.2',
+198 silly addNameRange     '1.0.0',
+198 silly addNameRange     '1.1.0',
+198 silly addNameRange     '1.2.0',
+198 silly addNameRange     '1.1.1',
+198 silly addNameRange     '1.2.1',
+198 silly addNameRange     '1.3.0',
+198 silly addNameRange     '1.4.0',
+198 silly addNameRange     '1.4.1',
+198 silly addNameRange     '1.4.2',
+198 silly addNameRange     '1.5.0',
+198 silly addNameRange     '1.5.1',
+198 silly addNameRange     '1.5.2',
+198 silly addNameRange     '2.0.0-alpha.0',
+198 silly addNameRange     '2.0.0-rc.1',
+198 silly addNameRange     '2.0.0-rc.2',
+198 silly addNameRange     '2.0.0-rc.3',
+198 silly addNameRange     '2.0.0-rc.4',
+198 silly addNameRange     '2.0.0-rc.5',
+198 silly addNameRange     '2.0.0-rc.6',
+198 silly addNameRange     '2.0.0',
+198 silly addNameRange     '2.0.1',
+198 silly addNameRange     '2.1.0',
+198 silly addNameRange     '2.1.1',
+198 silly addNameRange     '2.1.2',
+198 silly addNameRange     '2.1.4',
+198 silly addNameRange     '2.1.5',
+198 silly addNameRange     '2.2.0',
+198 silly addNameRange     '2.3.0',
+198 silly addNameRange     '2.4.0',
+198 silly addNameRange     '2.4.1',
+198 silly addNameRange     '2.5.0',
+198 silly addNameRange     '2.6.0' ] ]
+199 silly addNamed async@2.6.0
+200 verbose addNamed "2.6.0" is a plain semver version for async
+201 silly cache afterAdd async@2.6.0
+202 verbose afterAdd /Users/softsquare/.npm/async/2.6.0/package/package.json not in flight; writing
+203 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+204 verbose afterAdd /Users/softsquare/.npm/async/2.6.0/package/package.json written
+205 http fetch 200 https://registry.npmjs.org/decree/-/decree-0.0.6.tgz
+206 silly fetchAndShaCheck shasum 47efef0ed600d726ea8640345dc4961d0fa54cdd
+207 verbose addTmpTarball /var/folders/km/vk_p5jmd7yd62xt9hxq86s8c0000gn/T/npm-4684-817d5148/registry.npmjs.org/decree/-/decree-0.0.6.tgz not in flight; adding
+208 verbose addTmpTarball already have metadata; skipping unpack for decree@0.0.6
+209 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+210 silly cache afterAdd decree@0.0.6
+211 verbose afterAdd /Users/softsquare/.npm/decree/0.0.6/package/package.json not in flight; writing
+212 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+213 verbose afterAdd /Users/softsquare/.npm/decree/0.0.6/package/package.json written
+214 silly fetchNamedPackageData lodash-node
+215 silly mapToRegistry name lodash-node
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry data Result {
+218 silly mapToRegistry   raw: 'lodash-node',
+218 silly mapToRegistry   scope: null,
+218 silly mapToRegistry   escapedName: 'lodash-node',
+218 silly mapToRegistry   name: 'lodash-node',
+218 silly mapToRegistry   rawSpec: '',
+218 silly mapToRegistry   spec: 'latest',
+218 silly mapToRegistry   type: 'tag' }
+219 silly mapToRegistry uri https://registry.npmjs.org/lodash-node
+220 verbose request uri https://registry.npmjs.org/lodash-node
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 5:24:27 PM
+223 http request GET https://registry.npmjs.org/lodash-node
+224 http 200 https://registry.npmjs.org/lodash-node
+225 verbose headers { server: 'nginx/1.10.1',
+225 verbose headers   'content-type': 'application/json',
+225 verbose headers   'last-modified': 'Thu, 06 Oct 2016 16:46:22 GMT',
+225 verbose headers   etag: 'W/"57f67fde-aba0"',
+225 verbose headers   'content-encoding': 'gzip',
+225 verbose headers   'cache-control': 'max-age=300',
+225 verbose headers   'content-length': '3285',
+225 verbose headers   'accept-ranges': 'bytes',
+225 verbose headers   date: 'Mon, 20 Nov 2017 11:54:27 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   age: '300',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+225 verbose headers   'x-cache': 'HIT',
+225 verbose headers   'x-cache-hits': '1',
+225 verbose headers   'x-timer': 'S1511178868.628075,VS0,VE0',
+225 verbose headers   vary: 'Accept-Encoding, Accept' }
+226 silly get cb [ 200,
+226 silly get   { server: 'nginx/1.10.1',
+226 silly get     'content-type': 'application/json',
+226 silly get     'last-modified': 'Thu, 06 Oct 2016 16:46:22 GMT',
+226 silly get     etag: 'W/"57f67fde-aba0"',
+226 silly get     'content-encoding': 'gzip',
+226 silly get     'cache-control': 'max-age=300',
+226 silly get     'content-length': '3285',
+226 silly get     'accept-ranges': 'bytes',
+226 silly get     date: 'Mon, 20 Nov 2017 11:54:27 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     age: '300',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-lhr6327-LHR',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '1',
+226 silly get     'x-timer': 'S1511178868.628075,VS0,VE0',
+226 silly get     vary: 'Accept-Encoding, Accept' } ]
+227 verbose get saving lodash-node to /Users/softsquare/.npm/registry.npmjs.org/lodash-node/.cache.json
+228 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+229 silly resolveWithNewModule lodash-node@2.4.1 checking installable status
+230 silly cache add args [ 'lodash-node@^2.4.1', null ]
+231 verbose cache add spec lodash-node@^2.4.1
+232 silly cache add parsed spec Result {
+232 silly cache add   raw: 'lodash-node@^2.4.1',
+232 silly cache add   scope: null,
+232 silly cache add   escapedName: 'lodash-node',
+232 silly cache add   name: 'lodash-node',
+232 silly cache add   rawSpec: '^2.4.1',
+232 silly cache add   spec: '>=2.4.1 <3.0.0',
+232 silly cache add   type: 'range' }
+233 silly addNamed lodash-node@>=2.4.1 <3.0.0
+234 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for lodash-node
+235 silly addNameRange { name: 'lodash-node', range: '>=2.4.1 <3.0.0', hasData: false }
+236 silly mapToRegistry name lodash-node
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry data Result {
+239 silly mapToRegistry   raw: 'lodash-node',
+239 silly mapToRegistry   scope: null,
+239 silly mapToRegistry   escapedName: 'lodash-node',
+239 silly mapToRegistry   name: 'lodash-node',
+239 silly mapToRegistry   rawSpec: '',
+239 silly mapToRegistry   spec: 'latest',
+239 silly mapToRegistry   type: 'tag' }
+240 silly mapToRegistry uri https://registry.npmjs.org/lodash-node
+241 verbose addNameRange registry:https://registry.npmjs.org/lodash-node not in flight; fetching
+242 verbose get https://registry.npmjs.org/lodash-node not expired, no request
+243 silly addNameRange number 2 { name: 'lodash-node', range: '>=2.4.1 <3.0.0', hasData: true }
+244 silly addNameRange versions [ 'lodash-node',
+244 silly addNameRange   [ '2.0.0',
+244 silly addNameRange     '2.1.0',
+244 silly addNameRange     '2.2.0',
+244 silly addNameRange     '2.2.1',
+244 silly addNameRange     '2.3.0',
+244 silly addNameRange     '2.4.0',
+244 silly addNameRange     '2.4.1',
+244 silly addNameRange     '3.0.0',
+244 silly addNameRange     '3.0.1',
+244 silly addNameRange     '3.1.0',
+244 silly addNameRange     '3.2.0',
+244 silly addNameRange     '3.3.0',
+244 silly addNameRange     '3.3.1',
+244 silly addNameRange     '3.4.0',
+244 silly addNameRange     '3.5.0',
+244 silly addNameRange     '3.6.0',
+244 silly addNameRange     '3.7.0',
+244 silly addNameRange     '3.8.0',
+244 silly addNameRange     '3.9.0',
+244 silly addNameRange     '3.9.1',
+244 silly addNameRange     '3.9.2',
+244 silly addNameRange     '3.9.3',
+244 silly addNameRange     '3.10.0',
+244 silly addNameRange     '3.10.1',
+244 silly addNameRange     '3.10.2' ] ]
+245 silly addNamed lodash-node@2.4.1
+246 verbose addNamed "2.4.1" is a plain semver version for lodash-node
+247 warn deprecated lodash-node@2.4.1: This package is discontinued. Use lodash@^4.0.0.
+248 silly mapToRegistry name lodash-node
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry data Result {
+251 silly mapToRegistry   raw: 'lodash-node',
+251 silly mapToRegistry   scope: null,
+251 silly mapToRegistry   escapedName: 'lodash-node',
+251 silly mapToRegistry   name: 'lodash-node',
+251 silly mapToRegistry   rawSpec: '',
+251 silly mapToRegistry   spec: 'latest',
+251 silly mapToRegistry   type: 'tag' }
+252 silly mapToRegistry uri https://registry.npmjs.org/lodash-node
+253 verbose addRemoteTarball https://registry.npmjs.org/lodash-node/-/lodash-node-2.4.1.tgz not in flight; adding
+254 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash-node/-/lodash-node-2.4.1.tgz',
+254 verbose addRemoteTarball   'ea82f7b100c733d1a42af76801e506105e2a80ec' ]
+255 info retry fetch attempt 1 at 5:24:27 PM
+256 info attempt registry request try #1 at 5:24:27 PM
+257 http fetch GET https://registry.npmjs.org/lodash-node/-/lodash-node-2.4.1.tgz
+258 http fetch 200 https://registry.npmjs.org/lodash-node/-/lodash-node-2.4.1.tgz
+259 silly fetchAndShaCheck shasum ea82f7b100c733d1a42af76801e506105e2a80ec
+260 verbose addTmpTarball /var/folders/km/vk_p5jmd7yd62xt9hxq86s8c0000gn/T/npm-4684-817d5148/registry.npmjs.org/lodash-node/-/lodash-node-2.4.1.tgz not in flight; adding
+261 verbose addTmpTarball already have metadata; skipping unpack for lodash-node@2.4.1
+262 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+263 silly cache afterAdd lodash-node@2.4.1
+264 verbose afterAdd /Users/softsquare/.npm/lodash-node/2.4.1/package/package.json not in flight; writing
+265 verbose correctMkdir /Users/softsquare/.npm correctMkdir not in flight; initializing
+266 verbose afterAdd /Users/softsquare/.npm/lodash-node/2.4.1/package/package.json written
+267 silly loadAllDepsIntoIdealTree Finishing
+268 silly loadIdealTree Finishing
+269 silly currentTree heroku-pdf-image-app@1.0.0
+269 silly currentTree ├── @types/node@8.0.53
+269 silly currentTree ├── acorn@4.0.13
+269 silly currentTree ├── ajv@4.11.8
+269 silly currentTree ├── amdefine@1.0.1
+269 silly currentTree ├── ansi-regex@2.1.1
+269 silly currentTree ├── ansi-styles@2.2.1
+269 silly currentTree ├── array-parallel@0.1.3
+269 silly currentTree ├── array-series@0.1.5
+269 silly currentTree ├── asap@2.0.6
+269 silly currentTree ├── asn1.js@4.9.2
+269 silly currentTree ├── asn1@0.1.11
+269 silly currentTree ├── assert-plus@1.0.0
+269 silly currentTree ├── assert@1.1.2
+269 silly currentTree ├── assertion-error@1.0.0
+269 silly currentTree ├── astw@2.2.0
+269 silly currentTree ├── async@0.9.2
+269 silly currentTree ├── asynckit@0.4.0
+269 silly currentTree ├── aws-sign2@0.7.0
+269 silly currentTree ├── aws4@1.6.0
+269 silly currentTree ├── balanced-match@1.0.0
+269 silly currentTree ├── base64-js@0.0.7
+269 silly currentTree ├── Base64@0.2.1
+269 silly currentTree ├── bcrypt-pbkdf@1.0.1
+269 silly currentTree ├─┬ bl@1.0.3
+269 silly currentTree │ ├── isarray@1.0.0
+269 silly currentTree │ └── readable-stream@2.0.6
+269 silly currentTree ├── bluebird@3.5.1
+269 silly currentTree ├── bn.js@4.11.8
+269 silly currentTree ├─┬ body-parser@1.18.2
+269 silly currentTree │ ├── debug@2.6.9
+269 silly currentTree │ └── ms@2.0.0
+269 silly currentTree ├── boolbase@1.0.0
+269 silly currentTree ├── boom@4.3.1
+269 silly currentTree ├── brace-expansion@1.1.8
+269 silly currentTree ├── brorand@1.1.0
+269 silly currentTree ├─┬ browser-pack@3.2.0
+269 silly currentTree │ ├── readable-stream@1.0.34
+269 silly currentTree │ └── through2@0.5.1
+269 silly currentTree ├─┬ browser-resolve@1.11.2
+269 silly currentTree │ └── resolve@1.1.7
+269 silly currentTree ├── browserify-aes@1.1.1
+269 silly currentTree ├── browserify-cipher@1.0.0
+269 silly currentTree ├── browserify-des@1.0.0
+269 silly currentTree ├── browserify-rsa@4.0.1
+269 silly currentTree ├── browserify-sign@4.0.4
+269 silly currentTree ├── browserify-zlib@0.1.4
+269 silly currentTree ├─┬ browserify@5.10.0
+269 silly currentTree │ ├── punycode@1.2.4
+269 silly currentTree │ └── string_decoder@0.0.1
+269 silly currentTree ├── buffer-xor@1.0.3
+269 silly currentTree ├── buffer@2.8.2
+269 silly currentTree ├── builtins@0.0.7
+269 silly currentTree ├── busboy@0.2.14
+269 silly currentTree ├── bytes@3.0.0
+269 silly currentTree ├── callsite@1.0.0
+269 silly currentTree ├── camelcase@1.2.1
+269 silly currentTree ├── canvas@1.6.7
+269 silly currentTree ├── caseless@0.12.0
+269 silly currentTree ├── chai@1.9.2
+269 silly currentTree ├── chalk@1.1.3
+269 silly currentTree ├── character-parser@1.2.0
+269 silly currentTree ├── cheerio@1.0.0-rc.2
+269 silly currentTree ├── cipher-base@1.0.4
+269 silly currentTree ├─┬ clean-css@2.1.8
+269 silly currentTree │ └── commander@2.1.0
+269 silly currentTree ├─┬ cloudinary@1.9.1
+269 silly currentTree │ ├── lodash@3.10.1
+269 silly currentTree │ └── q@1.4.1
+269 silly currentTree ├── co-prompt@1.0.0
+269 silly currentTree ├── co@4.6.0
+269 silly currentTree ├── coffee-script@1.6.3
+269 silly currentTree ├── combine-source-map@0.3.0
+269 silly currentTree ├── combined-stream@1.0.5
+269 silly currentTree ├── commander@2.11.0
+269 silly currentTree ├── commondir@0.0.1
+269 silly currentTree ├── concat-map@0.0.1
+269 silly currentTree ├── concat-stream@1.4.10
+269 silly currentTree ├── console-browserify@1.1.0
+269 silly currentTree ├── constantinople@2.0.1
+269 silly currentTree ├── constants-browserify@0.0.1
+269 silly currentTree ├── content-type@1.0.4
+269 silly currentTree ├─┬ contentstream@1.0.0
+269 silly currentTree │ └── readable-stream@1.0.34
+269 silly currentTree ├── convert-source-map@0.3.5
+269 silly currentTree ├── cookiejar@2.1.1
+269 silly currentTree ├── core-util-is@1.0.2
+269 silly currentTree ├── create-ecdh@4.0.0
+269 silly currentTree ├── create-hash@1.1.3
+269 silly currentTree ├── create-hmac@1.1.6
+269 silly currentTree ├── cross-spawn@4.0.2
+269 silly currentTree ├─┬ cryptiles@3.1.2
+269 silly currentTree │ └── boom@5.2.0
+269 silly currentTree ├── crypto-browserify@3.12.0
+269 silly currentTree ├── csprng@0.1.2
+269 silly currentTree ├── css-font-size-keywords@1.0.0
+269 silly currentTree ├── css-font-stretch-keywords@1.0.1
+269 silly currentTree ├── css-font-style-keywords@1.0.1
+269 silly currentTree ├── css-font-weight-keywords@1.0.0
+269 silly currentTree ├── css-global-keywords@1.0.1
+269 silly currentTree ├── css-list-helpers@1.0.1
+269 silly currentTree ├── css-parse@1.0.4
+269 silly currentTree ├── css-select@1.2.0
+269 silly currentTree ├── css-stringify@1.0.5
+269 silly currentTree ├── css-system-font-keywords@1.0.0
+269 silly currentTree ├── css-what@2.1.0
+269 silly currentTree ├── css@1.0.8
+269 silly currentTree ├── csv-parse@1.3.3
+269 silly currentTree ├── csv-stringify@1.1.2
+269 silly currentTree ├── ctype@0.5.3
+269 silly currentTree ├── cwise-compiler@1.1.3
+269 silly currentTree ├─┬ dashdash@1.14.1
+269 silly currentTree │ └── assert-plus@1.0.0
+269 silly currentTree ├── data-uri-to-buffer@0.0.3
+269 silly currentTree ├── date-now@0.1.4
+269 silly currentTree ├── debug@2.2.0
+269 silly currentTree ├── decamelize@1.2.0
+269 silly currentTree ├── deep-eql@0.1.3
+269 silly currentTree ├── deep-equal@0.2.2
+269 silly currentTree ├── defined@0.0.0
+269 silly currentTree ├── delayed-stream@1.0.0
+269 silly currentTree ├── depd@1.1.1
+269 silly currentTree ├─┬ deps-sort@1.3.9
+269 silly currentTree │ ├── jsonparse@1.3.1
+269 silly currentTree │ ├── JSONStream@1.3.1
+269 silly currentTree │ ├── minimist@1.2.0
+269 silly currentTree │ └── subarg@1.0.0
+269 silly currentTree ├── des.js@1.0.0
+269 silly currentTree ├─┬ detective@4.5.0
+269 silly currentTree │ └── defined@1.0.0
+269 silly currentTree ├── dicer@0.2.5
+269 silly currentTree ├── diffie-hellman@5.0.2
+269 silly currentTree ├─┬ dom-serializer@0.1.0
+269 silly currentTree │ └── domelementtype@1.1.3
+269 silly currentTree ├── domain-browser@1.1.7
+269 silly currentTree ├── domelementtype@1.3.0
+269 silly currentTree ├── domhandler@2.4.1
+269 silly currentTree ├── domutils@1.5.1
+269 silly currentTree ├── dotenv@4.0.0
+269 silly currentTree ├── download-file@0.1.5
+269 silly currentTree ├── duplexer@0.1.1
+269 silly currentTree ├── duplexer2@0.0.2
+269 silly currentTree ├── ecc-jsbn@0.1.1
+269 silly currentTree ├── ee-first@1.1.1
+269 silly currentTree ├── elliptic@6.4.0
+269 silly currentTree ├── entities@1.1.1
+269 silly currentTree ├── es6-promise@2.0.1
+269 silly currentTree ├── escape-string-regexp@1.0.5
+269 silly currentTree ├── events@1.0.2
+269 silly currentTree ├── evp_bytestokey@1.0.3
+269 silly currentTree ├── express-fileupload@0.3.0
+269 silly currentTree ├── extend@3.0.1
+269 silly currentTree ├─┬ extract-zip@1.5.0
+269 silly currentTree │ ├── concat-stream@1.5.0
+269 silly currentTree │ ├── debug@0.7.4
+269 silly currentTree │ ├── isarray@1.0.0
+269 silly currentTree │ ├── mkdirp@0.5.0
+269 silly currentTree │ └── readable-stream@2.0.6
+269 silly currentTree ├── extsprintf@1.3.0
+269 silly currentTree ├── fast-deep-equal@1.0.0
+269 silly currentTree ├── fast-json-stable-stringify@2.0.0
+269 silly currentTree ├── faye-websocket@0.11.1
+269 silly currentTree ├── faye@0.8.11
+269 silly currentTree ├── fd-slicer@1.0.1
+269 silly currentTree ├── filesource@1.0.7
+269 silly currentTree ├── forever-agent@0.6.1
+269 silly currentTree ├── form-data@2.3.1
+269 silly currentTree ├── formidable@1.1.1
+269 silly currentTree ├── fs-extra@4.0.2
+269 silly currentTree ├── fs.realpath@1.0.0
+269 silly currentTree ├── generate-function@2.0.0
+269 silly currentTree ├── generate-object-property@1.2.0
+269 silly currentTree ├── get-pixels@3.3.0
+269 silly currentTree ├─┬ getpass@0.1.7
+269 silly currentTree │ └── assert-plus@1.0.0
+269 silly currentTree ├── gif-encoder@0.4.3
+269 silly currentTree ├── glob@3.2.11
+269 silly currentTree ├── gm@1.23.0
+269 silly currentTree ├── graceful-fs@4.1.11
+269 silly currentTree ├── har-schema@1.0.5
+269 silly currentTree ├── har-validator@4.2.1
+269 silly currentTree ├── has-ansi@2.0.0
+269 silly currentTree ├── hash-base@2.0.2
+269 silly currentTree ├── hash.js@1.1.3
+269 silly currentTree ├── hasha@2.2.0
+269 silly currentTree ├── hawk@6.0.2
+269 silly currentTree ├── hmac-drbg@1.0.1
+269 silly currentTree ├── hoek@4.2.0
+269 silly currentTree ├─┬ htmlparser2@3.9.2
+269 silly currentTree │ ├── isarray@1.0.0
+269 silly currentTree │ ├── readable-stream@2.3.3
+269 silly currentTree │ └── string_decoder@1.0.3
+269 silly currentTree ├── http-browserify@1.7.0
+269 silly currentTree ├── http-errors@1.6.2
+269 silly currentTree ├── http-parser-js@0.4.9
+269 silly currentTree ├── http-signature@1.2.0
+269 silly currentTree ├── https-browserify@0.0.1
+269 silly currentTree ├── iconv-lite@0.4.19
+269 silly currentTree ├── ieee754@1.1.8
+269 silly currentTree ├── imagemagick@0.1.3
+269 silly currentTree ├── indexof@0.0.1
+269 silly currentTree ├── inflight@1.0.6
+269 silly currentTree ├── inherits@2.0.3
+269 silly currentTree ├─┬ inline-source-map@0.3.1
+269 silly currentTree │ └── source-map@0.3.0
+269 silly currentTree ├─┬ insert-module-globals@6.6.3
+269 silly currentTree │ ├── combine-source-map@0.6.1
+269 silly currentTree │ ├── convert-source-map@1.1.3
+269 silly currentTree │ ├── inline-source-map@0.5.0
+269 silly currentTree │ ├── jsonparse@1.3.1
+269 silly currentTree │ ├── JSONStream@1.3.1
+269 silly currentTree │ ├── process@0.11.10
+269 silly currentTree │ ├── source-map@0.4.4
+269 silly currentTree │ └── xtend@4.0.1
+269 silly currentTree ├── iota-array@1.0.0
+269 silly currentTree ├── is-array@1.0.1
+269 silly currentTree ├── is-buffer@1.1.6
+269 silly currentTree ├─┬ is-my-json-valid@2.16.1
+269 silly currentTree │ └── xtend@4.0.1
+269 silly currentTree ├── is-promise@1.0.1
+269 silly currentTree ├── is-property@1.0.2
+269 silly currentTree ├── is-stream@1.1.0
+269 silly currentTree ├── is-typedarray@1.0.0
+269 silly currentTree ├── isarray@0.0.1
+269 silly currentTree ├── isexe@2.0.0
+269 silly currentTree ├── isnumeric@0.2.0
+269 silly currentTree ├── isstream@0.1.2
+269 silly currentTree ├─┬ jade@1.5.0
+269 silly currentTree │ └── commander@2.1.0
+269 silly currentTree ├── jpeg-js@0.1.2
+269 silly currentTree ├── jsbn@0.1.1
+269 silly currentTree ├── jsfiddler@0.0.3
+269 silly currentTree ├─┬ jsforce@1.8.0
+269 silly currentTree │ ├── coffee-script@1.12.7
+269 silly currentTree │ ├── faye@1.2.4
+269 silly currentTree │ ├── isarray@1.0.0
+269 silly currentTree │ ├── readable-stream@2.3.3
+269 silly currentTree │ └── string_decoder@1.0.3
+269 silly currentTree ├── json-schema-traverse@0.3.1
+269 silly currentTree ├── json-schema@0.2.3
+269 silly currentTree ├── json-stable-stringify@1.0.1
+269 silly currentTree ├── json-stringify-safe@5.0.1
+269 silly currentTree ├── jsonfile@4.0.0
+269 silly currentTree ├── jsonify@0.0.0
+269 silly currentTree ├── jsonparse@0.0.5
+269 silly currentTree ├── jsonpointer@4.0.1
+269 silly currentTree ├── JSONStream@0.8.4
+269 silly currentTree ├─┬ jsprim@1.4.1
+269 silly currentTree │ └── assert-plus@1.0.0
+269 silly currentTree ├── kew@0.7.0
+269 silly currentTree ├── keypress@0.2.1
+269 silly currentTree ├── klaw@1.3.1
+269 silly currentTree ├── labeled-stream-splicer@1.0.2
+269 silly currentTree ├── lazy.js@0.3.2
+269 silly currentTree ├─┬ less@1.7.4
+269 silly currentTree │ ├── assert-plus@0.1.5
+269 silly currentTree │ ├── aws-sign2@0.5.0
+269 silly currentTree │ ├── boom@0.4.2
+269 silly currentTree │ ├── combined-stream@0.0.7
+269 silly currentTree │ ├── cryptiles@0.2.2
+269 silly currentTree │ ├── delayed-stream@0.0.5
+269 silly currentTree │ ├── forever-agent@0.5.2
+269 silly currentTree │ ├── form-data@0.1.4
+269 silly currentTree │ ├── graceful-fs@2.0.3
+269 silly currentTree │ ├── hawk@1.0.0
+269 silly currentTree │ ├── hoek@0.9.1
+269 silly currentTree │ ├── http-signature@0.10.1
+269 silly currentTree │ ├── mkdirp@0.3.5
+269 silly currentTree │ ├── node-uuid@1.4.8
+269 silly currentTree │ ├── oauth-sign@0.3.0
+269 silly currentTree │ ├── qs@0.6.6
+269 silly currentTree │ ├── request@2.34.0
+269 silly currentTree │ ├── sntp@0.2.4
+269 silly currentTree │ └── tunnel-agent@0.3.0
+269 silly currentTree ├── lexical-scope@1.2.0
+269 silly currentTree ├── lodash.get@4.4.2
+269 silly currentTree ├── lodash.memoize@3.0.4
+269 silly currentTree ├── lodash@4.17.4
+269 silly currentTree ├── lru-cache@4.1.1
+269 silly currentTree ├─┬ md5.js@1.3.4
+269 silly currentTree │ └── hash-base@3.0.4
+269 silly currentTree ├── media-typer@0.3.0
+269 silly currentTree ├── miller-rabin@4.0.1
+269 silly currentTree ├── mime-db@1.30.0
+269 silly currentTree ├── mime-types@2.1.17
+269 silly currentTree ├── mime@1.2.11
+269 silly currentTree ├── minimalistic-assert@1.0.0
+269 silly currentTree ├── minimalistic-crypto-utils@1.0.1
+269 silly currentTree ├─┬ minimatch@0.3.0
+269 silly currentTree │ └── lru-cache@2.7.3
+269 silly currentTree ├── minimist@0.0.8
+269 silly currentTree ├── mkdirp@0.5.1
+269 silly currentTree ├─┬ module-deps@3.9.1
+269 silly currentTree │ ├── defined@1.0.0
+269 silly currentTree │ ├── jsonparse@1.3.1
+269 silly currentTree │ ├── JSONStream@1.3.1
+269 silly currentTree │ ├── minimist@1.2.0
+269 silly currentTree │ ├── parents@1.0.1
+269 silly currentTree │ ├── resolve@1.5.0
+269 silly currentTree │ ├── subarg@1.0.0
+269 silly currentTree │ └── xtend@4.0.1
+269 silly currentTree ├── monocle@1.1.51
+269 silly currentTree ├── ms@0.7.1
+269 silly currentTree ├─┬ multistream@2.1.0
+269 silly currentTree │ ├── isarray@1.0.0
+269 silly currentTree │ ├── readable-stream@2.3.3
+269 silly currentTree │ └── string_decoder@1.0.3
+269 silly currentTree ├── nan@2.8.0
+269 silly currentTree ├── ndarray-ops@1.2.2
+269 silly currentTree ├── ndarray-pack@1.2.1
+269 silly currentTree ├── ndarray@1.0.18
+269 silly currentTree ├── node-bitmap@0.0.1
+269 silly currentTree ├─┬ node-salesforce@0.8.0
+269 silly currentTree │ ├── async@0.1.22
+269 silly currentTree │ ├─┬ request@2.12.0
+269 silly currentTree │ │ ├─┬ form-data@0.0.3
+269 silly currentTree │ │ │ ├── async@0.1.9
+269 silly currentTree │ │ │ └─┬ combined-stream@0.0.3
+269 silly currentTree │ │ │   └── delayed-stream@0.0.5
+269 silly currentTree │ │ └── mime@1.2.7
+269 silly currentTree │ └── underscore@1.4.4
+269 silly currentTree ├── nth-check@1.0.1
+269 silly currentTree ├── oauth-sign@0.8.2
+269 silly currentTree ├── omggif@1.0.8
+269 silly currentTree ├── on-finished@2.3.0
+269 silly currentTree ├── once@1.4.0
+269 silly currentTree ├── open@0.0.5
+269 silly currentTree ├── optimist@0.3.7
+269 silly currentTree ├── os-browserify@0.1.2
+269 silly currentTree ├── pako@0.2.9
+269 silly currentTree ├─┬ parents@0.0.3
+269 silly currentTree │ └── path-platform@0.0.1
+269 silly currentTree ├── parse-asn1@5.1.0
+269 silly currentTree ├── parse-css-font@2.0.2
+269 silly currentTree ├── parse-data-uri@0.2.0
+269 silly currentTree ├── parse5@3.0.3
+269 silly currentTree ├── path-browserify@0.0.0
+269 silly currentTree ├── path-is-absolute@1.0.1
+269 silly currentTree ├── path-parse@1.0.5
+269 silly currentTree ├── path-platform@0.11.15
+269 silly currentTree ├── pbkdf2@3.0.14
+269 silly currentTree ├── pdf-image@1.1.0
+269 silly currentTree ├── pdf2img@0.5.0
+269 silly currentTree ├── pdf2png@1.0.5
+269 silly currentTree ├── pend@1.2.0
+269 silly currentTree ├── performance-now@0.2.0
+269 silly currentTree ├─┬ phantomjs@1.9.20
+269 silly currentTree │ ├── assert-plus@0.2.0
+269 silly currentTree │ ├── async@2.6.0
+269 silly currentTree │ ├── aws-sign2@0.6.0
+269 silly currentTree │ ├── boom@2.10.1
+269 silly currentTree │ ├── caseless@0.11.0
+269 silly currentTree │ ├── cryptiles@2.0.5
+269 silly currentTree │ ├── form-data@1.0.1
+269 silly currentTree │ ├── fs-extra@0.26.7
+269 silly currentTree │ ├── har-validator@2.0.6
+269 silly currentTree │ ├── hawk@3.1.3
+269 silly currentTree │ ├── hoek@2.16.3
+269 silly currentTree │ ├── http-signature@1.1.1
+269 silly currentTree │ ├── jsonfile@2.4.0
+269 silly currentTree │ ├── node-uuid@1.4.8
+269 silly currentTree │ ├── qs@5.2.1
+269 silly currentTree │ ├── request@2.67.0
+269 silly currentTree │ ├── sntp@1.0.9
+269 silly currentTree │ ├── tough-cookie@2.2.2
+269 silly currentTree │ ├── tunnel-agent@0.4.3
+269 silly currentTree │ └── which@1.2.14
+269 silly currentTree ├── pinkie-promise@2.0.1
+269 silly currentTree ├── pinkie@2.0.4
+269 silly currentTree ├── png-crop@0.0.1
+269 silly currentTree ├── pngjs-nozlib@1.0.0
+269 silly currentTree ├── pngjs@2.3.1
+269 silly currentTree ├── process-nextick-args@1.0.7
+269 silly currentTree ├── process@0.7.0
+269 silly currentTree ├── progress@1.1.8
+269 silly currentTree ├── promise@7.3.1
+269 silly currentTree ├── pseudomap@1.0.2
+269 silly currentTree ├── public-encrypt@4.0.0
+269 silly currentTree ├── punycode@1.4.1
+269 silly currentTree ├── q@0.9.7
+269 silly currentTree ├── qs@6.5.1
+269 silly currentTree ├── querystring-es3@0.2.1
+269 silly currentTree ├── querystring@0.2.0
+269 silly currentTree ├── randombytes@2.0.5
+269 silly currentTree ├── randomfill@1.0.3
+269 silly currentTree ├── raw-body@2.3.2
+269 silly currentTree ├── readable-stream@1.1.14
+269 silly currentTree ├── readable-wrap@1.0.0
+269 silly currentTree ├── readdirp@0.2.5
+269 silly currentTree ├── request-progress@2.0.1
+269 silly currentTree ├─┬ request@2.83.0
+269 silly currentTree │ ├── ajv@5.3.0
+269 silly currentTree │ ├── har-schema@2.0.0
+269 silly currentTree │ ├── har-validator@5.0.3
+269 silly currentTree │ └── performance-now@2.1.0
+269 silly currentTree ├── resolve@0.7.4
+269 silly currentTree ├─┬ rfile@1.0.0
+269 silly currentTree │ └── resolve@0.3.1
+269 silly currentTree ├─┬ rimraf@2.6.2
+269 silly currentTree │ ├── glob@7.1.2
+269 silly currentTree │ └── minimatch@3.0.4
+269 silly currentTree ├── ripemd160@2.0.1
+269 silly currentTree ├─┬ ruglify@1.0.0
+269 silly currentTree │ └── uglify-js@2.2.5
+269 silly currentTree ├── safe-buffer@5.1.1
+269 silly currentTree ├─┬ salesforce-node-client@1.1.1
+269 silly currentTree │ ├── assert-plus@0.2.0
+269 silly currentTree │ ├── aws-sign2@0.6.0
+269 silly currentTree │ ├── boom@2.10.1
+269 silly currentTree │ ├── combined-stream@1.0.5
+269 silly currentTree │ ├── cryptiles@2.0.5
+269 silly currentTree │ ├── delayed-stream@1.0.0
+269 silly currentTree │ ├── forever-agent@0.6.1
+269 silly currentTree │ ├── form-data@2.1.4
+269 silly currentTree │ ├── hawk@3.1.3
+269 silly currentTree │ ├── hoek@2.16.3
+269 silly currentTree │ ├── http-signature@1.1.1
+269 silly currentTree │ ├── mime-types@2.1.17
+269 silly currentTree │ ├── oauth-sign@0.8.2
+269 silly currentTree │ ├── qs@6.4.0
+269 silly currentTree │ ├── request@2.81.0
+269 silly currentTree │ ├── sntp@1.0.9
+269 silly currentTree │ ├── tunnel-agent@0.6.0
+269 silly currentTree │ ├── underscore@1.8.3
+269 silly currentTree │ └── uuid@3.1.0
+269 silly currentTree ├─┬ salesforce-oauth2@0.1.8
+269 silly currentTree │ ├── assert-plus@0.1.5
+269 silly currentTree │ ├── aws-sign2@0.5.0
+269 silly currentTree │ ├── boom@0.4.2
+269 silly currentTree │ ├── combined-stream@0.0.7
+269 silly currentTree │ ├── cryptiles@0.2.2
+269 silly currentTree │ ├── delayed-stream@0.0.5
+269 silly currentTree │ ├── forever-agent@0.5.2
+269 silly currentTree │ ├── form-data@0.1.4
+269 silly currentTree │ ├── hawk@1.1.1
+269 silly currentTree │ ├── hoek@0.9.1
+269 silly currentTree │ ├── http-signature@0.10.1
+269 silly currentTree │ ├── mime-types@1.0.2
+269 silly currentTree │ ├── node-uuid@1.4.8
+269 silly currentTree │ ├── oauth-sign@0.3.0
+269 silly currentTree │ ├── qs@0.6.6
+269 silly currentTree │ ├── request@2.37.0
+269 silly currentTree │ ├── sntp@0.2.4
+269 silly currentTree │ └── tunnel-agent@0.4.3
+269 silly currentTree ├─┬ save-pixels@2.3.4
+269 silly currentTree │ └── jpeg-js@0.0.4
+269 silly currentTree ├── sax@1.2.4
+269 silly currentTree ├── sequin@0.1.1
+269 silly currentTree ├── setprototypeof@1.0.3
+269 silly currentTree ├── sha.js@2.4.9
+269 silly currentTree ├── shallow-copy@0.0.1
+269 silly currentTree ├─┬ shasum@1.0.2
+269 silly currentTree │ └── json-stable-stringify@0.0.1
+269 silly currentTree ├── shell-quote@0.0.1
+269 silly currentTree ├── sigmund@1.0.1
+269 silly currentTree ├── sntp@2.1.0
+269 silly currentTree ├── source-map@0.1.43
+269 silly currentTree ├─┬ sshpk@1.13.1
+269 silly currentTree │ ├── asn1@0.2.3
+269 silly currentTree │ └── assert-plus@1.0.0
+269 silly currentTree ├── statuses@1.4.0
+269 silly currentTree ├── stream-browserify@1.0.0
+269 silly currentTree ├── stream-combiner@0.0.4
+269 silly currentTree ├─┬ stream-combiner2@1.0.2
+269 silly currentTree │ ├── readable-stream@1.0.34
+269 silly currentTree │ └── through2@0.5.1
+269 silly currentTree ├── stream-splicer@1.3.2
+269 silly currentTree ├── streamifier@0.1.1
+269 silly currentTree ├── streamsearch@0.1.2
+269 silly currentTree ├── string_decoder@0.10.31
+269 silly currentTree ├── stringstream@0.0.5
+269 silly currentTree ├── strip-ansi@3.0.1
+269 silly currentTree ├── subarg@0.0.1
+269 silly currentTree ├── supports-color@2.0.0
+269 silly currentTree ├── syntax-error@1.3.0
+269 silly currentTree ├── tcomb@2.7.0
+269 silly currentTree ├── throttleit@1.0.0
+269 silly currentTree ├── through@2.3.8
+269 silly currentTree ├─┬ through2@1.1.1
+269 silly currentTree │ └── xtend@4.0.1
+269 silly currentTree ├─┬ timers-browserify@1.4.2
+269 silly currentTree │ └── process@0.11.10
+269 silly currentTree ├── tmp@0.0.23
+269 silly currentTree ├── tough-cookie@2.3.3
+269 silly currentTree ├─┬ transformers@2.1.0
+269 silly currentTree │ ├── promise@2.0.0
+269 silly currentTree │ └── uglify-js@2.2.5
+269 silly currentTree ├── trim-image@1.0.1
+269 silly currentTree ├── tty-browserify@0.0.0
+269 silly currentTree ├── tunnel-agent@0.6.0
+269 silly currentTree ├── tweetnacl@0.14.5
+269 silly currentTree ├── type-detect@0.1.1
+269 silly currentTree ├── type-is@1.6.15
+269 silly currentTree ├── typedarray@0.0.6
+269 silly currentTree ├─┬ uglify-js@2.4.24
+269 silly currentTree │ ├── async@0.2.10
+269 silly currentTree │ └── source-map@0.1.34
+269 silly currentTree ├── uglify-to-browserify@1.0.2
+269 silly currentTree ├── umd@2.1.0
+269 silly currentTree ├── underscore@1.6.0
+269 silly currentTree ├── uniq@1.0.1
+269 silly currentTree ├── units-css@0.4.0
+269 silly currentTree ├── universalify@0.1.1
+269 silly currentTree ├── unpipe@1.0.0
+269 silly currentTree ├── unquote@1.1.0
+269 silly currentTree ├─┬ url@0.10.3
+269 silly currentTree │ └── punycode@1.3.2
+269 silly currentTree ├── util-deprecate@1.0.2
+269 silly currentTree ├─┬ util@0.10.3
+269 silly currentTree │ └── inherits@2.0.1
+269 silly currentTree ├── uuid@3.1.0
+269 silly currentTree ├─┬ verror@1.10.0
+269 silly currentTree │ └── assert-plus@1.0.0
+269 silly currentTree ├── viewport-dimensions@0.2.0
+269 silly currentTree ├── vm-browserify@0.0.4
+269 silly currentTree ├── websocket-driver@0.7.0
+269 silly currentTree ├── websocket-extensions@0.1.3
+269 silly currentTree ├── which@1.3.0
+269 silly currentTree ├── window-size@0.1.0
+269 silly currentTree ├── with@3.0.1
+269 silly currentTree ├── wordwrap@0.0.3
+269 silly currentTree ├── wrappy@1.0.2
+269 silly currentTree ├── xml2js@0.4.19
+269 silly currentTree ├── xmlbuilder@9.0.4
+269 silly currentTree ├── xtend@3.0.0
+269 silly currentTree ├── yallist@2.1.2
+269 silly currentTree ├─┬ yargs@3.5.4
+269 silly currentTree │ └── wordwrap@0.0.2
+269 silly currentTree └── yauzl@2.4.1
+270 silly idealTree heroku-pdf-image-app@1.0.0
+270 silly idealTree ├── @types/node@8.0.53
+270 silly idealTree ├── acorn@4.0.13
+270 silly idealTree ├── ajv@4.11.8
+270 silly idealTree ├── amdefine@1.0.1
+270 silly idealTree ├── ansi-regex@2.1.1
+270 silly idealTree ├── ansi-styles@2.2.1
+270 silly idealTree ├── array-parallel@0.1.3
+270 silly idealTree ├── array-series@0.1.5
+270 silly idealTree ├── asap@2.0.6
+270 silly idealTree ├── asn1.js@4.9.2
+270 silly idealTree ├── asn1@0.1.11
+270 silly idealTree ├── assert-plus@1.0.0
+270 silly idealTree ├── assert@1.1.2
+270 silly idealTree ├── assertion-error@1.0.0
+270 silly idealTree ├── astw@2.2.0
+270 silly idealTree ├── async@0.9.2
+270 silly idealTree ├── asynckit@0.4.0
+270 silly idealTree ├── aws-sign2@0.7.0
+270 silly idealTree ├── aws4@1.6.0
+270 silly idealTree ├── balanced-match@1.0.0
+270 silly idealTree ├── base64-js@0.0.7
+270 silly idealTree ├── Base64@0.2.1
+270 silly idealTree ├── bcrypt-pbkdf@1.0.1
+270 silly idealTree ├── bindings@1.3.0
+270 silly idealTree ├─┬ bl@1.0.3
+270 silly idealTree │ ├── isarray@1.0.0
+270 silly idealTree │ └── readable-stream@2.0.6
+270 silly idealTree ├── bluebird@3.5.1
+270 silly idealTree ├── bn.js@4.11.8
+270 silly idealTree ├─┬ body-parser@1.18.2
+270 silly idealTree │ ├── debug@2.6.9
+270 silly idealTree │ └── ms@2.0.0
+270 silly idealTree ├── boolbase@1.0.0
+270 silly idealTree ├── boom@4.3.1
+270 silly idealTree ├── brace-expansion@1.1.8
+270 silly idealTree ├── brorand@1.1.0
+270 silly idealTree ├─┬ browser-pack@3.2.0
+270 silly idealTree │ ├── readable-stream@1.0.34
+270 silly idealTree │ └── through2@0.5.1
+270 silly idealTree ├─┬ browser-resolve@1.11.2
+270 silly idealTree │ └── resolve@1.1.7
+270 silly idealTree ├── browserify-aes@1.1.1
+270 silly idealTree ├── browserify-cipher@1.0.0
+270 silly idealTree ├── browserify-des@1.0.0
+270 silly idealTree ├── browserify-rsa@4.0.1
+270 silly idealTree ├── browserify-sign@4.0.4
+270 silly idealTree ├── browserify-zlib@0.1.4
+270 silly idealTree ├─┬ browserify@5.10.0
+270 silly idealTree │ ├── punycode@1.2.4
+270 silly idealTree │ └── string_decoder@0.0.1
+270 silly idealTree ├── buffer-xor@1.0.3
+270 silly idealTree ├── buffer@2.8.2
+270 silly idealTree ├── builtins@0.0.7
+270 silly idealTree ├── busboy@0.2.14
+270 silly idealTree ├── bytes@3.0.0
+270 silly idealTree ├── callsite@1.0.0
+270 silly idealTree ├── camelcase@1.2.1
+270 silly idealTree ├── canvas@1.6.7
+270 silly idealTree ├── caseless@0.12.0
+270 silly idealTree ├── chai@1.9.2
+270 silly idealTree ├── chalk@1.1.3
+270 silly idealTree ├── character-parser@1.2.0
+270 silly idealTree ├── cheerio@1.0.0-rc.2
+270 silly idealTree ├── cipher-base@1.0.4
+270 silly idealTree ├─┬ clean-css@2.1.8
+270 silly idealTree │ └── commander@2.1.0
+270 silly idealTree ├─┬ cloudinary@1.9.1
+270 silly idealTree │ ├── lodash@3.10.1
+270 silly idealTree │ └── q@1.4.1
+270 silly idealTree ├── co-prompt@1.0.0
+270 silly idealTree ├── co@4.6.0
+270 silly idealTree ├── coffee-script@1.6.3
+270 silly idealTree ├── combine-source-map@0.3.0
+270 silly idealTree ├── combined-stream@1.0.5
+270 silly idealTree ├── commander@2.11.0
+270 silly idealTree ├── commondir@0.0.1
+270 silly idealTree ├── concat-map@0.0.1
+270 silly idealTree ├── concat-stream@1.4.10
+270 silly idealTree ├── console-browserify@1.1.0
+270 silly idealTree ├── constantinople@2.0.1
+270 silly idealTree ├── constants-browserify@0.0.1
+270 silly idealTree ├── content-type@1.0.4
+270 silly idealTree ├─┬ contentstream@1.0.0
+270 silly idealTree │ └── readable-stream@1.0.34
+270 silly idealTree ├── convert-source-map@0.3.5
+270 silly idealTree ├── cookiejar@2.1.1
+270 silly idealTree ├── core-util-is@1.0.2
+270 silly idealTree ├── create-ecdh@4.0.0
+270 silly idealTree ├── create-hash@1.1.3
+270 silly idealTree ├── create-hmac@1.1.6
+270 silly idealTree ├── cross-spawn@4.0.2
+270 silly idealTree ├─┬ cryptiles@3.1.2
+270 silly idealTree │ └── boom@5.2.0
+270 silly idealTree ├── crypto-browserify@3.12.0
+270 silly idealTree ├── csprng@0.1.2
+270 silly idealTree ├── css-font-size-keywords@1.0.0
+270 silly idealTree ├── css-font-stretch-keywords@1.0.1
+270 silly idealTree ├── css-font-style-keywords@1.0.1
+270 silly idealTree ├── css-font-weight-keywords@1.0.0
+270 silly idealTree ├── css-global-keywords@1.0.1
+270 silly idealTree ├── css-list-helpers@1.0.1
+270 silly idealTree ├── css-parse@1.0.4
+270 silly idealTree ├── css-select@1.2.0
+270 silly idealTree ├── css-stringify@1.0.5
+270 silly idealTree ├── css-system-font-keywords@1.0.0
+270 silly idealTree ├── css-what@2.1.0
+270 silly idealTree ├── css@1.0.8
+270 silly idealTree ├── csv-parse@1.3.3
+270 silly idealTree ├── csv-stringify@1.1.2
+270 silly idealTree ├── ctype@0.5.3
+270 silly idealTree ├── cwise-compiler@1.1.3
+270 silly idealTree ├─┬ dashdash@1.14.1
+270 silly idealTree │ └── assert-plus@1.0.0
+270 silly idealTree ├── data-uri-to-buffer@0.0.3
+270 silly idealTree ├── date-now@0.1.4
+270 silly idealTree ├── debug@2.2.0
+270 silly idealTree ├── decamelize@1.2.0
+270 silly idealTree ├── decree@0.0.6
+270 silly idealTree ├── deep-eql@0.1.3
+270 silly idealTree ├── deep-equal@0.2.2
+270 silly idealTree ├── defined@0.0.0
+270 silly idealTree ├── delayed-stream@1.0.0
+270 silly idealTree ├── depd@1.1.1
+270 silly idealTree ├─┬ deps-sort@1.3.9
+270 silly idealTree │ ├── jsonparse@1.3.1
+270 silly idealTree │ ├── JSONStream@1.3.1
+270 silly idealTree │ ├── minimist@1.2.0
+270 silly idealTree │ └── subarg@1.0.0
+270 silly idealTree ├── des.js@1.0.0
+270 silly idealTree ├─┬ detective@4.5.0
+270 silly idealTree │ └── defined@1.0.0
+270 silly idealTree ├── dicer@0.2.5
+270 silly idealTree ├── diffie-hellman@5.0.2
+270 silly idealTree ├─┬ dom-serializer@0.1.0
+270 silly idealTree │ └── domelementtype@1.1.3
+270 silly idealTree ├── domain-browser@1.1.7
+270 silly idealTree ├── domelementtype@1.3.0
+270 silly idealTree ├── domhandler@2.4.1
+270 silly idealTree ├── domutils@1.5.1
+270 silly idealTree ├── dotenv@4.0.0
+270 silly idealTree ├── download-file@0.1.5
+270 silly idealTree ├── duplexer@0.1.1
+270 silly idealTree ├── duplexer2@0.0.2
+270 silly idealTree ├── ecc-jsbn@0.1.1
+270 silly idealTree ├── ee-first@1.1.1
+270 silly idealTree ├── elliptic@6.4.0
+270 silly idealTree ├── entities@1.1.1
+270 silly idealTree ├── es6-promise@2.0.1
+270 silly idealTree ├── escape-string-regexp@1.0.5
+270 silly idealTree ├── events@1.0.2
+270 silly idealTree ├── evp_bytestokey@1.0.3
+270 silly idealTree ├── express-fileupload@0.3.0
+270 silly idealTree ├── extend@3.0.1
+270 silly idealTree ├─┬ extract-zip@1.5.0
+270 silly idealTree │ ├── concat-stream@1.5.0
+270 silly idealTree │ ├── debug@0.7.4
+270 silly idealTree │ ├── isarray@1.0.0
+270 silly idealTree │ ├── mkdirp@0.5.0
+270 silly idealTree │ └── readable-stream@2.0.6
+270 silly idealTree ├── extsprintf@1.3.0
+270 silly idealTree ├── fast-deep-equal@1.0.0
+270 silly idealTree ├── fast-json-stable-stringify@2.0.0
+270 silly idealTree ├── faye-websocket@0.11.1
+270 silly idealTree ├── faye@0.8.11
+270 silly idealTree ├── fd-slicer@1.0.1
+270 silly idealTree ├── filesource@1.0.7
+270 silly idealTree ├── forever-agent@0.6.1
+270 silly idealTree ├── form-data@2.3.1
+270 silly idealTree ├── formidable@1.1.1
+270 silly idealTree ├── fs-extra@4.0.2
+270 silly idealTree ├── fs.realpath@1.0.0
+270 silly idealTree ├── generate-function@2.0.0
+270 silly idealTree ├── generate-object-property@1.2.0
+270 silly idealTree ├── get-pixels@3.3.0
+270 silly idealTree ├─┬ getpass@0.1.7
+270 silly idealTree │ └── assert-plus@1.0.0
+270 silly idealTree ├── gif-encoder@0.4.3
+270 silly idealTree ├── glob@3.2.11
+270 silly idealTree ├── gm@1.23.0
+270 silly idealTree ├── graceful-fs@4.1.11
+270 silly idealTree ├── har-schema@1.0.5
+270 silly idealTree ├── har-validator@4.2.1
+270 silly idealTree ├── has-ansi@2.0.0
+270 silly idealTree ├── hash-base@2.0.2
+270 silly idealTree ├── hash.js@1.1.3
+270 silly idealTree ├── hasha@2.2.0
+270 silly idealTree ├── hawk@6.0.2
+270 silly idealTree ├── hmac-drbg@1.0.1
+270 silly idealTree ├── hoek@4.2.0
+270 silly idealTree ├─┬ htmlparser2@3.9.2
+270 silly idealTree │ ├── isarray@1.0.0
+270 silly idealTree │ ├── readable-stream@2.3.3
+270 silly idealTree │ └── string_decoder@1.0.3
+270 silly idealTree ├── http-browserify@1.7.0
+270 silly idealTree ├── http-errors@1.6.2
+270 silly idealTree ├── http-parser-js@0.4.9
+270 silly idealTree ├── http-signature@1.2.0
+270 silly idealTree ├── https-browserify@0.0.1
+270 silly idealTree ├── iconv-lite@0.4.19
+270 silly idealTree ├── ieee754@1.1.8
+270 silly idealTree ├── imagemagick@0.1.3
+270 silly idealTree ├── indexof@0.0.1
+270 silly idealTree ├── inflight@1.0.6
+270 silly idealTree ├── inherits@2.0.3
+270 silly idealTree ├─┬ inline-source-map@0.3.1
+270 silly idealTree │ └── source-map@0.3.0
+270 silly idealTree ├─┬ insert-module-globals@6.6.3
+270 silly idealTree │ ├── combine-source-map@0.6.1
+270 silly idealTree │ ├── convert-source-map@1.1.3
+270 silly idealTree │ ├── inline-source-map@0.5.0
+270 silly idealTree │ ├── jsonparse@1.3.1
+270 silly idealTree │ ├── JSONStream@1.3.1
+270 silly idealTree │ ├── process@0.11.10
+270 silly idealTree │ ├── source-map@0.4.4
+270 silly idealTree │ └── xtend@4.0.1
+270 silly idealTree ├── iota-array@1.0.0
+270 silly idealTree ├── is-array@1.0.1
+270 silly idealTree ├── is-buffer@1.1.6
+270 silly idealTree ├─┬ is-my-json-valid@2.16.1
+270 silly idealTree │ └── xtend@4.0.1
+270 silly idealTree ├── is-promise@1.0.1
+270 silly idealTree ├── is-property@1.0.2
+270 silly idealTree ├── is-stream@1.1.0
+270 silly idealTree ├── is-typedarray@1.0.0
+270 silly idealTree ├── isarray@0.0.1
+270 silly idealTree ├── isexe@2.0.0
+270 silly idealTree ├── isnumeric@0.2.0
+270 silly idealTree ├── isstream@0.1.2
+270 silly idealTree ├─┬ jade@1.5.0
+270 silly idealTree │ └── commander@2.1.0
+270 silly idealTree ├── jpeg-js@0.1.2
+270 silly idealTree ├── jsbn@0.1.1
+270 silly idealTree ├── jsfiddler@0.0.3
+270 silly idealTree ├─┬ jsforce@1.8.0
+270 silly idealTree │ ├── coffee-script@1.12.7
+270 silly idealTree │ ├── faye@1.2.4
+270 silly idealTree │ ├── isarray@1.0.0
+270 silly idealTree │ ├── readable-stream@2.3.3
+270 silly idealTree │ └── string_decoder@1.0.3
+270 silly idealTree ├── json-schema-traverse@0.3.1
+270 silly idealTree ├── json-schema@0.2.3
+270 silly idealTree ├── json-stable-stringify@1.0.1
+270 silly idealTree ├── json-stringify-safe@5.0.1
+270 silly idealTree ├── jsonfile@4.0.0
+270 silly idealTree ├── jsonify@0.0.0
+270 silly idealTree ├── jsonparse@0.0.5
+270 silly idealTree ├── jsonpointer@4.0.1
+270 silly idealTree ├── JSONStream@0.8.4
+270 silly idealTree ├─┬ jsprim@1.4.1
+270 silly idealTree │ └── assert-plus@1.0.0
+270 silly idealTree ├── kew@0.7.0
+270 silly idealTree ├── keypress@0.2.1
+270 silly idealTree ├── klaw@1.3.1
+270 silly idealTree ├── labeled-stream-splicer@1.0.2
+270 silly idealTree ├── lazy.js@0.3.2
+270 silly idealTree ├─┬ less@1.7.4
+270 silly idealTree │ ├── assert-plus@0.1.5
+270 silly idealTree │ ├── aws-sign2@0.5.0
+270 silly idealTree │ ├── boom@0.4.2
+270 silly idealTree │ ├── combined-stream@0.0.7
+270 silly idealTree │ ├── cryptiles@0.2.2
+270 silly idealTree │ ├── delayed-stream@0.0.5
+270 silly idealTree │ ├── forever-agent@0.5.2
+270 silly idealTree │ ├── form-data@0.1.4
+270 silly idealTree │ ├── graceful-fs@2.0.3
+270 silly idealTree │ ├── hawk@1.0.0
+270 silly idealTree │ ├── hoek@0.9.1
+270 silly idealTree │ ├── http-signature@0.10.1
+270 silly idealTree │ ├── mkdirp@0.3.5
+270 silly idealTree │ ├── node-uuid@1.4.8
+270 silly idealTree │ ├── oauth-sign@0.3.0
+270 silly idealTree │ ├── qs@0.6.6
+270 silly idealTree │ ├── request@2.34.0
+270 silly idealTree │ ├── sntp@0.2.4
+270 silly idealTree │ └── tunnel-agent@0.3.0
+270 silly idealTree ├── lexical-scope@1.2.0
+270 silly idealTree ├── lodash-node@2.4.1
+270 silly idealTree ├── lodash.get@4.4.2
+270 silly idealTree ├── lodash.memoize@3.0.4
+270 silly idealTree ├── lodash@4.17.4
+270 silly idealTree ├── lru-cache@4.1.1
+270 silly idealTree ├─┬ lwip@0.0.9
+270 silly idealTree │ └── async@2.6.0
+270 silly idealTree ├─┬ md5.js@1.3.4
+270 silly idealTree │ └── hash-base@3.0.4
+270 silly idealTree ├── media-typer@0.3.0
+270 silly idealTree ├── miller-rabin@4.0.1
+270 silly idealTree ├── mime-db@1.30.0
+270 silly idealTree ├── mime-types@2.1.17
+270 silly idealTree ├── mime@1.2.11
+270 silly idealTree ├── minimalistic-assert@1.0.0
+270 silly idealTree ├── minimalistic-crypto-utils@1.0.1
+270 silly idealTree ├─┬ minimatch@0.3.0
+270 silly idealTree │ └── lru-cache@2.7.3
+270 silly idealTree ├── minimist@0.0.8
+270 silly idealTree ├── mkdirp@0.5.1
+270 silly idealTree ├─┬ module-deps@3.9.1
+270 silly idealTree │ ├── defined@1.0.0
+270 silly idealTree │ ├── jsonparse@1.3.1
+270 silly idealTree │ ├── JSONStream@1.3.1
+270 silly idealTree │ ├── minimist@1.2.0
+270 silly idealTree │ ├── parents@1.0.1
+270 silly idealTree │ ├── resolve@1.5.0
+270 silly idealTree │ ├── subarg@1.0.0
+270 silly idealTree │ └── xtend@4.0.1
+270 silly idealTree ├── monocle@1.1.51
+270 silly idealTree ├── ms@0.7.1
+270 silly idealTree ├─┬ multistream@2.1.0
+270 silly idealTree │ ├── isarray@1.0.0
+270 silly idealTree │ ├── readable-stream@2.3.3
+270 silly idealTree │ └── string_decoder@1.0.3
+270 silly idealTree ├── nan@2.8.0
+270 silly idealTree ├── ndarray-ops@1.2.2
+270 silly idealTree ├── ndarray-pack@1.2.1
+270 silly idealTree ├── ndarray@1.0.18
+270 silly idealTree ├── node-bitmap@0.0.1
+270 silly idealTree ├─┬ node-salesforce@0.8.0
+270 silly idealTree │ ├── async@0.1.22
+270 silly idealTree │ ├─┬ request@2.12.0
+270 silly idealTree │ │ ├─┬ form-data@0.0.3
+270 silly idealTree │ │ │ ├── async@0.1.9
+270 silly idealTree │ │ │ └─┬ combined-stream@0.0.3
+270 silly idealTree │ │ │   └── delayed-stream@0.0.5
+270 silly idealTree │ │ └── mime@1.2.7
+270 silly idealTree │ └── underscore@1.4.4
+270 silly idealTree ├── nth-check@1.0.1
+270 silly idealTree ├── oauth-sign@0.8.2
+270 silly idealTree ├── omggif@1.0.8
+270 silly idealTree ├── on-finished@2.3.0
+270 silly idealTree ├── once@1.4.0
+270 silly idealTree ├── open@0.0.5
+270 silly idealTree ├── optimist@0.3.7
+270 silly idealTree ├── os-browserify@0.1.2
+270 silly idealTree ├── pako@0.2.9
+270 silly idealTree ├─┬ parents@0.0.3
+270 silly idealTree │ └── path-platform@0.0.1
+270 silly idealTree ├── parse-asn1@5.1.0
+270 silly idealTree ├── parse-css-font@2.0.2
+270 silly idealTree ├── parse-data-uri@0.2.0
+270 silly idealTree ├── parse5@3.0.3
+270 silly idealTree ├── path-browserify@0.0.0
+270 silly idealTree ├── path-is-absolute@1.0.1
+270 silly idealTree ├── path-parse@1.0.5
+270 silly idealTree ├── path-platform@0.11.15
+270 silly idealTree ├── pbkdf2@3.0.14
+270 silly idealTree ├── pdf-image@1.1.0
+270 silly idealTree ├── pdf2img@0.5.0
+270 silly idealTree ├── pdf2png@1.0.5
+270 silly idealTree ├── pend@1.2.0
+270 silly idealTree ├── performance-now@0.2.0
+270 silly idealTree ├─┬ phantomjs@1.9.20
+270 silly idealTree │ ├── assert-plus@0.2.0
+270 silly idealTree │ ├── async@2.6.0
+270 silly idealTree │ ├── aws-sign2@0.6.0
+270 silly idealTree │ ├── boom@2.10.1
+270 silly idealTree │ ├── caseless@0.11.0
+270 silly idealTree │ ├── cryptiles@2.0.5
+270 silly idealTree │ ├── form-data@1.0.1
+270 silly idealTree │ ├── fs-extra@0.26.7
+270 silly idealTree │ ├── har-validator@2.0.6
+270 silly idealTree │ ├── hawk@3.1.3
+270 silly idealTree │ ├── hoek@2.16.3
+270 silly idealTree │ ├── http-signature@1.1.1
+270 silly idealTree │ ├── jsonfile@2.4.0
+270 silly idealTree │ ├── node-uuid@1.4.8
+270 silly idealTree │ ├── qs@5.2.1
+270 silly idealTree │ ├── request@2.67.0
+270 silly idealTree │ ├── sntp@1.0.9
+270 silly idealTree │ ├── tough-cookie@2.2.2
+270 silly idealTree │ ├── tunnel-agent@0.4.3
+270 silly idealTree │ └── which@1.2.14
+270 silly idealTree ├── pinkie-promise@2.0.1
+270 silly idealTree ├── pinkie@2.0.4
+270 silly idealTree ├── png-crop@0.0.1
+270 silly idealTree ├── pngjs-nozlib@1.0.0
+270 silly idealTree ├── pngjs@2.3.1
+270 silly idealTree ├── process-nextick-args@1.0.7
+270 silly idealTree ├── process@0.7.0
+270 silly idealTree ├── progress@1.1.8
+270 silly idealTree ├── promise@7.3.1
+270 silly idealTree ├── pseudomap@1.0.2
+270 silly idealTree ├── public-encrypt@4.0.0
+270 silly idealTree ├── punycode@1.4.1
+270 silly idealTree ├── q@0.9.7
+270 silly idealTree ├── qs@6.5.1
+270 silly idealTree ├── querystring-es3@0.2.1
+270 silly idealTree ├── querystring@0.2.0
+270 silly idealTree ├── randombytes@2.0.5
+270 silly idealTree ├── randomfill@1.0.3
+270 silly idealTree ├── raw-body@2.3.2
+270 silly idealTree ├── readable-stream@1.1.14
+270 silly idealTree ├── readable-wrap@1.0.0
+270 silly idealTree ├── readdirp@0.2.5
+270 silly idealTree ├── request-progress@2.0.1
+270 silly idealTree ├─┬ request@2.83.0
+270 silly idealTree │ ├── ajv@5.3.0
+270 silly idealTree │ ├── har-schema@2.0.0
+270 silly idealTree │ ├── har-validator@5.0.3
+270 silly idealTree │ └── performance-now@2.1.0
+270 silly idealTree ├── resolve@0.7.4
+270 silly idealTree ├─┬ rfile@1.0.0
+270 silly idealTree │ └── resolve@0.3.1
+270 silly idealTree ├─┬ rimraf@2.6.2
+270 silly idealTree │ ├── glob@7.1.2
+270 silly idealTree │ └── minimatch@3.0.4
+270 silly idealTree ├── ripemd160@2.0.1
+270 silly idealTree ├─┬ ruglify@1.0.0
+270 silly idealTree │ └── uglify-js@2.2.5
+270 silly idealTree ├── safe-buffer@5.1.1
+270 silly idealTree ├─┬ salesforce-node-client@1.1.1
+270 silly idealTree │ ├── assert-plus@0.2.0
+270 silly idealTree │ ├── aws-sign2@0.6.0
+270 silly idealTree │ ├── boom@2.10.1
+270 silly idealTree │ ├── combined-stream@1.0.5
+270 silly idealTree │ ├── cryptiles@2.0.5
+270 silly idealTree │ ├── delayed-stream@1.0.0
+270 silly idealTree │ ├── forever-agent@0.6.1
+270 silly idealTree │ ├── form-data@2.1.4
+270 silly idealTree │ ├── hawk@3.1.3
+270 silly idealTree │ ├── hoek@2.16.3
+270 silly idealTree │ ├── http-signature@1.1.1
+270 silly idealTree │ ├── mime-types@2.1.17
+270 silly idealTree │ ├── oauth-sign@0.8.2
+270 silly idealTree │ ├── qs@6.4.0
+270 silly idealTree │ ├── request@2.81.0
+270 silly idealTree │ ├── sntp@1.0.9
+270 silly idealTree │ ├── tunnel-agent@0.6.0
+270 silly idealTree │ ├── underscore@1.8.3
+270 silly idealTree │ └── uuid@3.1.0
+270 silly idealTree ├─┬ salesforce-oauth2@0.1.8
+270 silly idealTree │ ├── assert-plus@0.1.5
+270 silly idealTree │ ├── aws-sign2@0.5.0
+270 silly idealTree │ ├── boom@0.4.2
+270 silly idealTree │ ├── combined-stream@0.0.7
+270 silly idealTree │ ├── cryptiles@0.2.2
+270 silly idealTree │ ├── delayed-stream@0.0.5
+270 silly idealTree │ ├── forever-agent@0.5.2
+270 silly idealTree │ ├── form-data@0.1.4
+270 silly idealTree │ ├── hawk@1.1.1
+270 silly idealTree │ ├── hoek@0.9.1
+270 silly idealTree │ ├── http-signature@0.10.1
+270 silly idealTree │ ├── mime-types@1.0.2
+270 silly idealTree │ ├── node-uuid@1.4.8
+270 silly idealTree │ ├── oauth-sign@0.3.0
+270 silly idealTree │ ├── qs@0.6.6
+270 silly idealTree │ ├── request@2.37.0
+270 silly idealTree │ ├── sntp@0.2.4
+270 silly idealTree │ └── tunnel-agent@0.4.3
+270 silly idealTree ├─┬ save-pixels@2.3.4
+270 silly idealTree │ └── jpeg-js@0.0.4
+270 silly idealTree ├── sax@1.2.4
+270 silly idealTree ├── sequin@0.1.1
+270 silly idealTree ├── setprototypeof@1.0.3
+270 silly idealTree ├── sha.js@2.4.9
+270 silly idealTree ├── shallow-copy@0.0.1
+270 silly idealTree ├─┬ shasum@1.0.2
+270 silly idealTree │ └── json-stable-stringify@0.0.1
+270 silly idealTree ├── shell-quote@0.0.1
+270 silly idealTree ├── sigmund@1.0.1
+270 silly idealTree ├── sntp@2.1.0
+270 silly idealTree ├── source-map@0.1.43
+270 silly idealTree ├─┬ sshpk@1.13.1
+270 silly idealTree │ ├── asn1@0.2.3
+270 silly idealTree │ └── assert-plus@1.0.0
+270 silly idealTree ├── statuses@1.4.0
+270 silly idealTree ├── stream-browserify@1.0.0
+270 silly idealTree ├── stream-combiner@0.0.4
+270 silly idealTree ├─┬ stream-combiner2@1.0.2
+270 silly idealTree │ ├── readable-stream@1.0.34
+270 silly idealTree │ └── through2@0.5.1
+270 silly idealTree ├── stream-splicer@1.3.2
+270 silly idealTree ├── streamifier@0.1.1
+270 silly idealTree ├── streamsearch@0.1.2
+270 silly idealTree ├── string_decoder@0.10.31
+270 silly idealTree ├── stringstream@0.0.5
+270 silly idealTree ├── strip-ansi@3.0.1
+270 silly idealTree ├── subarg@0.0.1
+270 silly idealTree ├── supports-color@2.0.0
+270 silly idealTree ├── syntax-error@1.3.0
+270 silly idealTree ├── tcomb@2.7.0
+270 silly idealTree ├── throttleit@1.0.0
+270 silly idealTree ├── through@2.3.8
+270 silly idealTree ├─┬ through2@1.1.1
+270 silly idealTree │ └── xtend@4.0.1
+270 silly idealTree ├─┬ timers-browserify@1.4.2
+270 silly idealTree │ └── process@0.11.10
+270 silly idealTree ├── tmp@0.0.23
+270 silly idealTree ├── tough-cookie@2.3.3
+270 silly idealTree ├─┬ transformers@2.1.0
+270 silly idealTree │ ├── promise@2.0.0
+270 silly idealTree │ └── uglify-js@2.2.5
+270 silly idealTree ├── trim-image@1.0.1
+270 silly idealTree ├── tty-browserify@0.0.0
+270 silly idealTree ├── tunnel-agent@0.6.0
+270 silly idealTree ├── tweetnacl@0.14.5
+270 silly idealTree ├── type-detect@0.1.1
+270 silly idealTree ├── type-is@1.6.15
+270 silly idealTree ├── typedarray@0.0.6
+270 silly idealTree ├─┬ uglify-js@2.4.24
+270 silly idealTree │ ├── async@0.2.10
+270 silly idealTree │ └── source-map@0.1.34
+270 silly idealTree ├── uglify-to-browserify@1.0.2
+270 silly idealTree ├── umd@2.1.0
+270 silly idealTree ├── underscore@1.6.0
+270 silly idealTree ├── uniq@1.0.1
+270 silly idealTree ├── units-css@0.4.0
+270 silly idealTree ├── universalify@0.1.1
+270 silly idealTree ├── unpipe@1.0.0
+270 silly idealTree ├── unquote@1.1.0
+270 silly idealTree ├─┬ url@0.10.3
+270 silly idealTree │ └── punycode@1.3.2
+270 silly idealTree ├── util-deprecate@1.0.2
+270 silly idealTree ├─┬ util@0.10.3
+270 silly idealTree │ └── inherits@2.0.1
+270 silly idealTree ├── uuid@3.1.0
+270 silly idealTree ├─┬ verror@1.10.0
+270 silly idealTree │ └── assert-plus@1.0.0
+270 silly idealTree ├── viewport-dimensions@0.2.0
+270 silly idealTree ├── vm-browserify@0.0.4
+270 silly idealTree ├── websocket-driver@0.7.0
+270 silly idealTree ├── websocket-extensions@0.1.3
+270 silly idealTree ├── which@1.3.0
+270 silly idealTree ├── window-size@0.1.0
+270 silly idealTree ├── with@3.0.1
+270 silly idealTree ├── wordwrap@0.0.3
+270 silly idealTree ├── wrappy@1.0.2
+270 silly idealTree ├── xml2js@0.4.19
+270 silly idealTree ├── xmlbuilder@9.0.4
+270 silly idealTree ├── xtend@3.0.0
+270 silly idealTree ├── yallist@2.1.2
+270 silly idealTree ├─┬ yargs@3.5.4
+270 silly idealTree │ └── wordwrap@0.0.2
+270 silly idealTree └── yauzl@2.4.1
+271 silly generateActionsToTake Starting
+272 silly install generateActionsToTake
+273 silly generateActionsToTake Finishing
+274 silly diffTrees action count 5
+275 silly diffTrees add lodash-node@2.4.1
+276 silly diffTrees add bindings@1.3.0
+277 silly diffTrees add decree@0.0.6
+278 silly diffTrees add async@2.6.0
+279 silly diffTrees add lwip@0.0.9
+280 silly decomposeActions action count 40
+281 silly decomposeActions fetch lodash-node@2.4.1
+282 silly decomposeActions extract lodash-node@2.4.1
+283 silly decomposeActions test lodash-node@2.4.1
+284 silly decomposeActions preinstall lodash-node@2.4.1
+285 silly decomposeActions build lodash-node@2.4.1
+286 silly decomposeActions install lodash-node@2.4.1
+287 silly decomposeActions postinstall lodash-node@2.4.1
+288 silly decomposeActions finalize lodash-node@2.4.1
+289 silly decomposeActions fetch bindings@1.3.0
+290 silly decomposeActions extract bindings@1.3.0
+291 silly decomposeActions test bindings@1.3.0
+292 silly decomposeActions preinstall bindings@1.3.0
+293 silly decomposeActions build bindings@1.3.0
+294 silly decomposeActions install bindings@1.3.0
+295 silly decomposeActions postinstall bindings@1.3.0
+296 silly decomposeActions finalize bindings@1.3.0
+297 silly decomposeActions fetch decree@0.0.6
+298 silly decomposeActions extract decree@0.0.6
+299 silly decomposeActions test decree@0.0.6
+300 silly decomposeActions preinstall decree@0.0.6
+301 silly decomposeActions build decree@0.0.6
+302 silly decomposeActions install decree@0.0.6
+303 silly decomposeActions postinstall decree@0.0.6
+304 silly decomposeActions finalize decree@0.0.6
+305 silly decomposeActions fetch async@2.6.0
+306 silly decomposeActions extract async@2.6.0
+307 silly decomposeActions test async@2.6.0
+308 silly decomposeActions preinstall async@2.6.0
+309 silly decomposeActions build async@2.6.0
+310 silly decomposeActions install async@2.6.0
+311 silly decomposeActions postinstall async@2.6.0
+312 silly decomposeActions finalize async@2.6.0
+313 silly decomposeActions fetch lwip@0.0.9
+314 silly decomposeActions extract lwip@0.0.9
+315 silly decomposeActions test lwip@0.0.9
+316 silly decomposeActions preinstall lwip@0.0.9
+317 silly decomposeActions build lwip@0.0.9
+318 silly decomposeActions install lwip@0.0.9
+319 silly decomposeActions postinstall lwip@0.0.9
+320 silly decomposeActions finalize lwip@0.0.9
+321 silly runTopLevelLifecycles Starting
+322 silly executeActions Starting
+323 silly install executeActions
+324 silly doSerial global-install 0
+325 silly doParallel fetch 5
+326 verbose correctMkdir /Users/softsquare/.npm/_locks correctMkdir not in flight; initializing
+327 verbose lock using /Users/softsquare/.npm/_locks/staging-a19879b5114cd5f3.lock for /Users/softsquare/Documents/pdf-img/node_modules/.staging
+328 silly doParallel extract 5
+329 silly extract lodash-node@2.4.1
+330 silly extract bindings@1.3.0
+331 silly extract decree@0.0.6
+332 silly extract async@2.6.0
+333 silly extract lwip@0.0.9
+334 verbose unbuild node_modules/.staging/lodash-node-31a146b9
+335 verbose unbuild node_modules/.staging/decree-a61b06b9
+336 verbose unbuild node_modules/.staging/bindings-2510043e
+337 verbose unbuild node_modules/.staging/async-4eea0b04
+338 verbose unbuild node_modules/.staging/lwip-81949adf
+339 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9 is being purged from base /Users/softsquare/Documents/pdf-img
+340 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9
+341 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9 is being purged from base /Users/softsquare/Documents/pdf-img
+342 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9
+343 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e is being purged from base /Users/softsquare/Documents/pdf-img
+344 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e
+345 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04 is being purged from base /Users/softsquare/Documents/pdf-img
+346 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04
+347 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf is being purged from base /Users/softsquare/Documents/pdf-img
+348 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf
+349 verbose tar unpack /Users/softsquare/.npm/lodash-node/2.4.1/package.tgz
+350 verbose tar unpacking to /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9
+351 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9 is being purged
+352 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9
+353 verbose tar unpack /Users/softsquare/.npm/decree/0.0.6/package.tgz
+354 verbose tar unpacking to /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9
+355 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9 is being purged
+356 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9
+357 verbose tar unpack /Users/softsquare/.npm/bindings/1.3.0/package.tgz
+358 verbose tar unpacking to /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e
+359 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e is being purged
+360 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e
+361 verbose tar unpack /Users/softsquare/.npm/async/2.6.0/package.tgz
+362 verbose tar unpacking to /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04
+363 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04 is being purged
+364 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04
+365 verbose tar unpack /Users/softsquare/.npm/lwip/0.0.9/package.tgz
+366 verbose tar unpacking to /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf
+367 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf is being purged
+368 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf
+369 silly gunzTarPerm modes [ '755', '644' ]
+370 silly gunzTarPerm modes [ '755', '644' ]
+371 silly gunzTarPerm modes [ '755', '644' ]
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gunzTarPerm modes [ '755', '644' ]
+374 silly gunzTarPerm extractEntry package.json
+375 silly gunzTarPerm extractEntry package.json
+376 silly gunzTarPerm extractEntry package.json
+377 silly gunzTarPerm extractEntry package.json
+378 silly gunzTarPerm extractEntry package.json
+379 silly gunzTarPerm extractEntry README.md
+380 silly gunzTarPerm extractEntry LICENSE.txt
+381 silly gunzTarPerm extractEntry .npmignore
+382 silly gunzTarPerm extractEntry README.md
+383 silly gunzTarPerm extractEntry .npmignore
+384 silly gunzTarPerm extractEntry README.md
+385 silly gunzTarPerm extractEntry all.js
+386 silly gunzTarPerm extractEntry allLimit.js
+387 silly gunzTarPerm extractEntry README.md
+388 silly gunzTarPerm extractEntry bindings.js
+389 silly gunzTarPerm extractEntry compat/utilities.js
+390 silly gunzTarPerm extractEntry compat/support.js
+391 silly gunzTarPerm extractEntry LICENSE
+392 silly gunzTarPerm extractEntry LICENSE
+393 silly gunzTarPerm extractEntry decree.js
+394 silly gunzTarPerm extractEntry allSeries.js
+395 silly gunzTarPerm extractEntry any.js
+396 silly gunzTarPerm extractEntry index.js
+397 silly gunzTarPerm extractEntry binding.gyp
+398 silly gunzTarPerm extractEntry .travis.yml
+399 silly gunzTarPerm extractEntry bower.json
+400 silly gunzTarPerm extractEntry .travis.yml
+401 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+402 silly gunzTarPerm extractEntry dist/amd/decree.js
+403 silly gunzTarPerm extractEntry dist/amd/validators.js
+404 silly gunzTarPerm extractEntry dist/cjs/decree.js
+405 silly gunzTarPerm extractEntry dist/cjs/validators.js
+406 silly gunzTarPerm extractEntry examples/decree_1.js
+407 silly gunzTarPerm modified mode [ 'examples/decree_1.js', 436, 420 ]
+408 silly gunzTarPerm extractEntry examples/decree_2.js
+409 silly gunzTarPerm modified mode [ 'examples/decree_2.js', 436, 420 ]
+410 silly gunzTarPerm extractEntry examples/decree_3.js
+411 silly gunzTarPerm modified mode [ 'examples/decree_3.js', 436, 420 ]
+412 silly gunzTarPerm extractEntry examples/amd/index.html
+413 silly gunzTarPerm modified mode [ 'examples/amd/index.html', 436, 420 ]
+414 silly gunzTarPerm extractEntry examples/amd/scripts/main.js
+415 silly gunzTarPerm modified mode [ 'examples/amd/scripts/main.js', 436, 420 ]
+416 silly gunzTarPerm extractEntry examples/amd/scripts/makeCoffee.js
+417 silly gunzTarPerm modified mode [ 'examples/amd/scripts/makeCoffee.js', 436, 420 ]
+418 silly gunzTarPerm extractEntry Makefile
+419 silly gunzTarPerm extractEntry src/decree.js
+420 silly gunzTarPerm extractEntry src/validators.js
+421 silly gunzTarPerm extractEntry tests/01.test.js
+422 silly gunzTarPerm extractEntry tests/02.built-in-validators.js
+423 silly gunzTarPerm modified mode [ 'tests/02.built-in-validators.js', 436, 420 ]
+424 silly gunzTarPerm extractEntry tests/03.custom-types.js
+425 silly gunzTarPerm modified mode [ 'tests/03.custom-types.js', 436, 420 ]
+426 silly gunzTarPerm extractEntry compat/chaining.js
+427 silly gunzTarPerm extractEntry compat/objects.js
+428 silly gunzTarPerm extractEntry anyLimit.js
+429 silly gunzTarPerm extractEntry anySeries.js
+430 silly gunzTarPerm extractEntry appveyor.yml
+431 silly gunzTarPerm extractEntry compat/collections.js
+432 silly gunzTarPerm extractEntry apply.js
+433 silly gunzTarPerm extractEntry examples/blur.js
+434 silly gunzTarPerm extractEntry examples/extract.js
+435 silly gunzTarPerm extractEntry applyEach.js
+436 silly gunzTarPerm extractEntry applyEachSeries.js
+437 silly gunzTarPerm extractEntry examples/fade.js
+438 silly gunzTarPerm extractEntry examples/gif_interlaced.js
+439 silly gunzTarPerm extractEntry compat/index.js
+440 silly gunzTarPerm extractEntry compat/arrays.js
+441 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e/node_modules is being purged
+442 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e/node_modules
+443 silly gunzTarPerm extractEntry examples/hue.js
+444 silly gunzTarPerm extractEntry examples/crop.js
+445 silly gunzTarPerm extractEntry asyncify.js
+446 silly gunzTarPerm extractEntry auto.js
+447 silly gunzTarPerm extractEntry compat/functions.js
+448 silly gunzTarPerm extractEntry compat/functions/after.js
+449 silly gunzTarPerm extractEntry examples/border.js
+450 silly gunzTarPerm extractEntry examples/saturate.js
+451 silly gunzTarPerm extractEntry autoInject.js
+452 silly gunzTarPerm extractEntry bower.json
+453 silly gunzTarPerm extractEntry compat/functions/compose.js
+454 silly gunzTarPerm extractEntry compat/functions/createCallback.js
+455 silly gunzTarPerm extractEntry examples/lighten.js
+456 silly gunzTarPerm extractEntry examples/mirror.js
+457 silly gunzTarPerm extractEntry cargo.js
+458 silly gunzTarPerm extractEntry CHANGELOG.md
+459 silly gunzTarPerm extractEntry compat/functions/curry.js
+460 silly gunzTarPerm extractEntry compat/functions/debounce.js
+461 silly gunzTarPerm extractEntry examples/open_pixelbuffer.js
+462 silly gunzTarPerm extractEntry examples/cover.js
+463 silly gunzTarPerm extractEntry compose.js
+464 silly gunzTarPerm extractEntry concat.js
+465 silly gunzTarPerm extractEntry compat/functions/bindKey.js
+466 silly gunzTarPerm extractEntry compat/functions/delay.js
+467 silly gunzTarPerm extractEntry concatLimit.js
+468 silly gunzTarPerm extractEntry concatSeries.js
+469 silly gunzTarPerm extractEntry examples/pad.js
+470 silly gunzTarPerm extractEntry examples/convert_png_jpg.js
+471 silly gunzTarPerm extractEntry compat/functions/memoize.js
+472 silly gunzTarPerm extractEntry compat/functions/once.js
+473 silly gunzTarPerm extractEntry constant.js
+474 silly gunzTarPerm extractEntry detect.js
+475 silly gunzTarPerm extractEntry examples/paste_blend.js
+476 silly gunzTarPerm extractEntry examples/convert_png_gif.js
+477 silly gunzTarPerm extractEntry compat/functions/partial.js
+478 silly gunzTarPerm extractEntry compat/functions/partialRight.js
+479 silly gunzTarPerm extractEntry examples/paste_mosiac.js
+480 silly gunzTarPerm extractEntry examples/convert_jpg_png.js
+481 silly gunzTarPerm extractEntry detectLimit.js
+482 silly gunzTarPerm extractEntry detectSeries.js
+483 silly gunzTarPerm extractEntry compat/functions/bindAll.js
+484 silly gunzTarPerm extractEntry compat/functions/throttle.js
+485 silly gunzTarPerm extractEntry examples/png_interlaced.js
+486 silly gunzTarPerm extractEntry examples/convert_gif_png.js
+487 silly gunzTarPerm extractEntry dir.js
+488 silly gunzTarPerm extractEntry doDuring.js
+489 silly gunzTarPerm extractEntry compat/functions/bind.js
+490 silly gunzTarPerm extractEntry compat/functions/wrap.js
+491 silly gunzTarPerm extractEntry examples/reduce_quality.js
+492 silly gunzTarPerm extractEntry examples/contain.js
+493 silly gunzTarPerm extractEntry doUntil.js
+494 silly gunzTarPerm extractEntry doWhilst.js
+495 silly gunzTarPerm extractEntry compat/functions/defer.js
+496 silly gunzTarPerm extractEntry compat/internals/arrayPool.js
+497 silly gunzTarPerm extractEntry examples/rotate.js
+498 silly gunzTarPerm extractEntry examples/clone.js
+499 silly gunzTarPerm extractEntry during.js
+500 silly gunzTarPerm extractEntry each.js
+501 silly gunzTarPerm extractEntry compat/internals/defaultsIteratorOptions.js
+502 silly gunzTarPerm extractEntry compat/internals/eachIteratorOptions.js
+503 silly gunzTarPerm extractEntry examples/rotate_scale_blur.js
+504 silly gunzTarPerm extractEntry examples/set_pixel.js
+505 silly gunzTarPerm extractEntry eachLimit.js
+506 silly gunzTarPerm extractEntry eachOf.js
+507 silly gunzTarPerm extractEntry eachOfLimit.js
+508 silly gunzTarPerm extractEntry eachOfSeries.js
+509 silly gunzTarPerm extractEntry examples/sharpen.js
+510 silly gunzTarPerm extractEntry examples/lena.png
+511 silly gunzTarPerm extractEntry compat/internals/escapeHtmlChar.js
+512 silly gunzTarPerm extractEntry compat/internals/createWrapper.js
+513 silly gunzTarPerm extractEntry eachSeries.js
+514 silly gunzTarPerm extractEntry ensureAsync.js
+515 silly gunzTarPerm extractEntry compat/internals/forOwnIteratorOptions.js
+516 silly gunzTarPerm extractEntry compat/internals/getArray.js
+517 silly gunzTarPerm extractEntry every.js
+518 silly gunzTarPerm extractEntry everyLimit.js
+519 silly gunzTarPerm extractEntry compat/internals/getObject.js
+520 silly gunzTarPerm extractEntry compat/internals/htmlEscapes.js
+521 silly gunzTarPerm extractEntry everySeries.js
+522 silly gunzTarPerm extractEntry filter.js
+523 silly gunzTarPerm extractEntry compat/internals/htmlUnescapes.js
+524 silly gunzTarPerm extractEntry compat/internals/createIterator.js
+525 silly gunzTarPerm extractEntry filterLimit.js
+526 silly gunzTarPerm extractEntry filterSeries.js
+527 silly gunzTarPerm extractEntry examples/lena.gif
+528 silly gunzTarPerm extractEntry compat/internals/indicatorObject.js
+529 silly gunzTarPerm extractEntry compat/internals/createCache.js
+530 silly gunzTarPerm extractEntry find.js
+531 silly gunzTarPerm extractEntry findLimit.js
+532 silly gunzTarPerm extractEntry compat/internals/isNative.js
+533 silly gunzTarPerm extractEntry compat/internals/createAggregator.js
+534 silly gunzTarPerm extractEntry findSeries.js
+535 silly gunzTarPerm extractEntry foldl.js
+536 silly gunzTarPerm extractEntry examples/lena.jpg
+537 silly gunzTarPerm extractEntry compat/internals/isNode.js
+538 silly gunzTarPerm extractEntry compat/internals/compareAscending.js
+539 silly gunzTarPerm extractEntry CONTRIBUTING.md
+540 silly gunzTarPerm extractEntry foldr.js
+541 silly gunzTarPerm extractEntry forEach.js
+542 silly gunzTarPerm extractEntry compat/internals/iteratorTemplate.js
+543 silly gunzTarPerm extractEntry compat/internals/charAtCallback.js
+544 silly gunzTarPerm extractEntry lib/Batch.js
+545 silly gunzTarPerm extractEntry lib/BatchPrototypeInit.js
+546 silly gunzTarPerm extractEntry forEachLimit.js
+547 silly gunzTarPerm extractEntry forEachOf.js
+548 silly gunzTarPerm extractEntry compat/internals/keyPrefix.js
+549 silly gunzTarPerm extractEntry compat/internals/cachePush.js
+550 silly gunzTarPerm extractEntry lib/Image.js
+551 silly gunzTarPerm extractEntry lib/ImagePrototypeInit.js
+552 silly gunzTarPerm extractEntry forEachOfLimit.js
+553 silly gunzTarPerm extractEntry forEachOfSeries.js
+554 silly gunzTarPerm extractEntry compat/internals/largeArraySize.js
+555 silly gunzTarPerm extractEntry compat/internals/cacheIndexOf.js
+556 silly gunzTarPerm extractEntry lib/defs.js
+557 silly gunzTarPerm extractEntry forEachSeries.js
+558 silly gunzTarPerm extractEntry forever.js
+559 silly gunzTarPerm extractEntry lib/obtain.js
+560 silly gunzTarPerm extractEntry lib/util.js
+561 silly gunzTarPerm extractEntry compat/internals/lodashWrapper.js
+562 silly gunzTarPerm extractEntry compat/internals/baseUniq.js
+563 silly gunzTarPerm extractEntry groupBy.js
+564 silly gunzTarPerm extractEntry groupByLimit.js
+565 silly gunzTarPerm extractEntry src/decoder/buffer_worker.cpp
+566 silly gunzTarPerm extractEntry src/decoder/decoder.h
+567 silly gunzTarPerm extractEntry compat/internals/maxPoolSize.js
+568 silly gunzTarPerm extractEntry compat/internals/baseRandom.js
+569 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9/node_modules is being purged
+570 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9/node_modules
+571 silly gunzTarPerm extractEntry src/decoder/gif_decoder.cpp
+572 silly gunzTarPerm extractEntry src/decoder/init.cpp
+573 silly gunzTarPerm extractEntry groupBySeries.js
+574 silly gunzTarPerm extractEntry index.js
+575 silly gunzTarPerm extractEntry compat/internals/objectPool.js
+576 silly gunzTarPerm extractEntry compat/internals/baseMerge.js
+577 silly gunzTarPerm extractEntry inject.js
+578 silly gunzTarPerm extractEntry LICENSE
+579 silly gunzTarPerm extractEntry src/decoder/jpeg_decoder.cpp
+580 silly gunzTarPerm extractEntry src/decoder/png_decoder.cpp
+581 silly gunzTarPerm extractEntry compat/internals/objectTypes.js
+582 silly gunzTarPerm extractEntry compat/internals/baseIsEqual.js
+583 silly gunzTarPerm extractEntry src/decoder/pnglibconf.h
+584 silly gunzTarPerm extractEntry src/decoder/util.cpp
+585 silly gunzTarPerm extractEntry log.js
+586 silly gunzTarPerm extractEntry map.js
+587 silly gunzTarPerm extractEntry compat/internals/reEscapedHtml.js
+588 silly gunzTarPerm extractEntry compat/internals/baseIndexOf.js
+589 silly gunzTarPerm extractEntry src/encoder/encoder.h
+590 silly gunzTarPerm extractEntry src/encoder/gif_worker.cpp
+591 silly gunzTarPerm extractEntry mapLimit.js
+592 silly gunzTarPerm extractEntry mapSeries.js
+593 silly gunzTarPerm extractEntry compat/internals/reInterpolate.js
+594 silly gunzTarPerm extractEntry compat/internals/baseFlatten.js
+595 silly gunzTarPerm extractEntry src/encoder/init.cpp
+596 silly gunzTarPerm extractEntry src/encoder/jpeg_worker.cpp
+597 silly gunzTarPerm extractEntry mapValues.js
+598 silly gunzTarPerm extractEntry mapValuesLimit.js
+599 silly gunzTarPerm extractEntry compat/internals/reUnescapedHtml.js
+600 silly gunzTarPerm extractEntry compat/internals/baseEach.js
+601 silly gunzTarPerm extractEntry src/encoder/png_worker.cpp
+602 silly gunzTarPerm extractEntry src/encoder/pnglibconf.h
+603 silly gunzTarPerm extractEntry mapValuesSeries.js
+604 silly gunzTarPerm extractEntry memoize.js
+605 silly gunzTarPerm extractEntry compat/internals/releaseArray.js
+606 silly gunzTarPerm extractEntry compat/internals/baseDifference.js
+607 silly gunzTarPerm extractEntry src/image/opacify_worker.cpp
+608 silly gunzTarPerm extractEntry src/image/blur_worker.cpp
+609 silly gunzTarPerm extractEntry src/image/hsla_worker.cpp
+610 silly gunzTarPerm extractEntry src/image/image.cpp
+611 silly gunzTarPerm extractEntry nextTick.js
+612 silly gunzTarPerm extractEntry parallel.js
+613 silly gunzTarPerm extractEntry src/image/image.h
+614 silly gunzTarPerm extractEntry compat/internals/releaseObject.js
+615 silly gunzTarPerm extractEntry compat/internals/baseCreateWrapper.js
+616 silly gunzTarPerm extractEntry src/image/init.cpp
+617 silly gunzTarPerm extractEntry parallelLimit.js
+618 silly gunzTarPerm extractEntry priorityQueue.js
+619 silly gunzTarPerm extractEntry src/image/mirror_worker.cpp
+620 silly gunzTarPerm extractEntry src/image/crop_worker.cpp
+621 silly gunzTarPerm extractEntry src/image/pad_worker.cpp
+622 silly gunzTarPerm extractEntry src/image/paste_worker.cpp
+623 silly gunzTarPerm extractEntry compat/internals/setBindData.js
+624 silly gunzTarPerm extractEntry compat/internals/baseCreateCallback.js
+625 silly gunzTarPerm extractEntry src/image/resize_worker.cpp
+626 silly gunzTarPerm extractEntry queue.js
+627 silly gunzTarPerm extractEntry race.js
+628 silly gunzTarPerm extractEntry src/image/rotate_worker.cpp
+629 silly gunzTarPerm extractEntry src/image/setpixel_worker.cpp
+630 silly gunzTarPerm extractEntry src/image/sharpen_worker.cpp
+631 silly gunzTarPerm extractEntry compat/internals/shimIsPlainObject.js
+632 silly gunzTarPerm extractEntry compat/internals/baseCreate.js
+633 silly gunzTarPerm extractEntry src/lib/cimg/CImg.h
+634 silly gunzTarPerm extractEntry README.md
+635 silly gunzTarPerm extractEntry reduce.js
+636 silly gunzTarPerm extractEntry compat/internals/shimKeys.js
+637 silly gunzTarPerm extractEntry compat/internals/baseClone.js
+638 silly gunzTarPerm extractEntry reduceRight.js
+639 silly gunzTarPerm extractEntry reflect.js
+640 silly gunzTarPerm extractEntry compat/internals/slice.js
+641 silly gunzTarPerm extractEntry compat/internals/baseBind.js
+642 silly gunzTarPerm extractEntry reflectAll.js
+643 silly gunzTarPerm extractEntry reject.js
+644 silly gunzTarPerm extractEntry compat/internals/unescapeHtmlChar.js
+645 silly gunzTarPerm extractEntry compat/internals/escapeStringChar.js
+646 silly gunzTarPerm extractEntry rejectLimit.js
+647 silly gunzTarPerm extractEntry rejectSeries.js
+648 silly gunzTarPerm extractEntry compat/objects/assign.js
+649 silly gunzTarPerm extractEntry compat/objects/isBoolean.js
+650 silly gunzTarPerm extractEntry retry.js
+651 silly gunzTarPerm extractEntry retryable.js
+652 silly gunzTarPerm extractEntry compat/objects/isDate.js
+653 silly gunzTarPerm extractEntry compat/objects/isElement.js
+654 silly gunzTarPerm extractEntry select.js
+655 silly gunzTarPerm extractEntry selectLimit.js
+656 silly gunzTarPerm extractEntry compat/objects/isArray.js
+657 silly gunzTarPerm extractEntry compat/objects/isEqual.js
+658 silly gunzTarPerm extractEntry selectSeries.js
+659 silly gunzTarPerm extractEntry seq.js
+660 silly gunzTarPerm extractEntry compat/objects/isFinite.js
+661 silly gunzTarPerm extractEntry compat/objects/isFunction.js
+662 silly gunzTarPerm extractEntry series.js
+663 silly gunzTarPerm extractEntry setImmediate.js
+664 silly gunzTarPerm extractEntry compat/objects/isNaN.js
+665 silly gunzTarPerm extractEntry compat/objects/isNull.js
+666 silly gunzTarPerm extractEntry some.js
+667 silly gunzTarPerm extractEntry someLimit.js
+668 silly gunzTarPerm extractEntry compat/objects/isArguments.js
+669 silly gunzTarPerm extractEntry compat/objects/isNumber.js
+670 silly gunzTarPerm extractEntry someSeries.js
+671 silly gunzTarPerm extractEntry sortBy.js
+672 silly gunzTarPerm extractEntry compat/objects/invert.js
+673 silly gunzTarPerm extractEntry compat/objects/isObject.js
+674 silly gunzTarPerm extractEntry timeout.js
+675 silly gunzTarPerm extractEntry times.js
+676 silly gunzTarPerm extractEntry compat/objects/has.js
+677 silly gunzTarPerm extractEntry compat/objects/isPlainObject.js
+678 silly gunzTarPerm extractEntry timesLimit.js
+679 silly gunzTarPerm extractEntry timesSeries.js
+680 silly gunzTarPerm extractEntry compat/objects/functions.js
+681 silly gunzTarPerm extractEntry compat/objects/isRegExp.js
+682 silly gunzTarPerm extractEntry transform.js
+683 silly gunzTarPerm extractEntry tryEach.js
+684 silly gunzTarPerm extractEntry compat/objects/forOwnRight.js
+685 silly gunzTarPerm extractEntry compat/objects/isString.js
+686 silly gunzTarPerm extractEntry unmemoize.js
+687 silly gunzTarPerm extractEntry until.js
+688 silly gunzTarPerm extractEntry compat/objects/forOwn.js
+689 silly gunzTarPerm extractEntry compat/objects/isUndefined.js
+690 silly gunzTarPerm extractEntry waterfall.js
+691 silly gunzTarPerm extractEntry whilst.js
+692 silly gunzTarPerm extractEntry compat/objects/forInRight.js
+693 silly gunzTarPerm extractEntry compat/objects/keys.js
+694 silly gunzTarPerm extractEntry wrapSync.js
+695 silly gunzTarPerm extractEntry dist/async.js
+696 silly gunzTarPerm extractEntry compat/objects/forIn.js
+697 silly gunzTarPerm extractEntry compat/objects/mapValues.js
+698 silly gunzTarPerm extractEntry dist/async.min.js
+699 silly gunzTarPerm extractEntry compat/objects/findLastKey.js
+700 silly gunzTarPerm extractEntry compat/objects/merge.js
+701 silly gunzTarPerm extractEntry dist/async.min.map
+702 silly gunzTarPerm extractEntry internal/applyEach.js
+703 silly gunzTarPerm extractEntry internal/breakLoop.js
+704 silly gunzTarPerm extractEntry internal/consoleFunc.js
+705 silly gunzTarPerm extractEntry src/lib/cimg/Licence_CeCILL-C_V1-en.txt
+706 silly gunzTarPerm extractEntry compat/objects/findKey.js
+707 silly gunzTarPerm extractEntry compat/objects/omit.js
+708 silly gunzTarPerm extractEntry internal/createTester.js
+709 silly gunzTarPerm extractEntry internal/doLimit.js
+710 silly gunzTarPerm extractEntry src/lib/cimg/Licence_CeCILL_V2-en.txt
+711 silly gunzTarPerm extractEntry src/lib/cimg/README.txt
+712 silly gunzTarPerm extractEntry compat/objects/defaults.js
+713 silly gunzTarPerm extractEntry compat/objects/pairs.js
+714 silly gunzTarPerm extractEntry internal/doParallel.js
+715 silly gunzTarPerm extractEntry internal/doParallelLimit.js
+716 silly gunzTarPerm extractEntry src/lib/gif/README
+717 silly gunzTarPerm extractEntry src/lib/gif/gif_font.c
+718 silly gunzTarPerm extractEntry compat/objects/create.js
+719 silly gunzTarPerm extractEntry compat/objects/pick.js
+720 silly gunzTarPerm extractEntry src/lib/gif/AUTHORS
+721 silly gunzTarPerm extractEntry src/lib/gif/dgif_lib.c
+722 silly gunzTarPerm extractEntry internal/DoublyLinkedList.js
+723 silly gunzTarPerm extractEntry internal/eachOfLimit.js
+724 silly gunzTarPerm extractEntry internal/filter.js
+725 silly gunzTarPerm extractEntry compat/objects/cloneDeep.js
+726 silly gunzTarPerm extractEntry compat/objects/transform.js
+727 silly gunzTarPerm extractEntry internal/findGetResult.js
+728 silly gunzTarPerm extractEntry src/lib/gif/egif_lib.c
+729 silly gunzTarPerm extractEntry src/lib/gif/gif_err.c
+730 silly gunzTarPerm extractEntry compat/objects/clone.js
+731 silly gunzTarPerm extractEntry compat/objects/values.js
+732 silly gunzTarPerm extractEntry internal/getIterator.js
+733 silly gunzTarPerm extractEntry internal/initialParams.js
+734 silly gunzTarPerm extractEntry src/lib/gif/COPYING
+735 silly gunzTarPerm extractEntry src/lib/gif/gif_hash.c
+736 silly gunzTarPerm extractEntry compat/objects/isEmpty.js
+737 silly gunzTarPerm extractEntry compat/collections/at.js
+738 silly gunzTarPerm extractEntry internal/iterator.js
+739 silly gunzTarPerm extractEntry internal/map.js
+740 silly gunzTarPerm extractEntry src/lib/gif/gif_hash.h
+741 silly gunzTarPerm extractEntry src/lib/gif/gif_lib.h
+742 silly gunzTarPerm extractEntry compat/collections/groupBy.js
+743 silly gunzTarPerm extractEntry compat/collections/indexBy.js
+744 silly gunzTarPerm extractEntry internal/notId.js
+745 silly gunzTarPerm extractEntry internal/once.js
+746 silly gunzTarPerm extractEntry compat/collections/invoke.js
+747 silly gunzTarPerm extractEntry compat/collections/map.js
+748 silly gunzTarPerm extractEntry src/lib/gif/gif_lib_private.h
+749 silly gunzTarPerm extractEntry src/lib/gif/gifalloc.c
+750 silly gunzTarPerm extractEntry internal/onlyOnce.js
+751 silly gunzTarPerm extractEntry internal/parallel.js
+752 silly gunzTarPerm extractEntry src/lib/gif/quantize.c
+753 silly gunzTarPerm extractEntry src/lib/jpeg/README
+754 silly gunzTarPerm extractEntry compat/collections/forEachRight.js
+755 silly gunzTarPerm extractEntry compat/collections/min.js
+756 silly gunzTarPerm extractEntry internal/queue.js
+757 silly gunzTarPerm extractEntry internal/reject.js
+758 silly gunzTarPerm extractEntry compat/collections/pluck.js
+759 silly gunzTarPerm extractEntry compat/collections/reduce.js
+760 silly gunzTarPerm extractEntry src/lib/jpeg/libjpeg.txt
+761 silly gunzTarPerm extractEntry src/lib/jpeg/jcapimin.c
+762 silly gunzTarPerm extractEntry internal/setImmediate.js
+763 silly gunzTarPerm extractEntry internal/slice.js
+764 silly gunzTarPerm extractEntry src/lib/jpeg/jcapistd.c
+765 silly gunzTarPerm extractEntry src/lib/jpeg/jcarith.c
+766 silly gunzTarPerm extractEntry compat/collections/reduceRight.js
+767 silly gunzTarPerm extractEntry compat/collections/reject.js
+768 silly gunzTarPerm extractEntry internal/withoutIndex.js
+769 silly gunzTarPerm extractEntry internal/wrapAsync.js
+770 silly gunzTarPerm extractEntry src/lib/jpeg/jccoefct.c
+771 silly gunzTarPerm extractEntry src/lib/jpeg/jccolor.c
+772 silly gunzTarPerm extractEntry compat/collections/forEach.js
+773 silly gunzTarPerm extractEntry compat/collections/sample.js
+774 silly gunzTarPerm extractEntry src/lib/jpeg/jcdctmgr.c
+775 silly gunzTarPerm extractEntry src/lib/jpeg/jchuff.c
+776 silly gunzTarPerm extractEntry compat/collections/findLast.js
+777 silly gunzTarPerm extractEntry compat/collections/shuffle.js
+778 silly gunzTarPerm extractEntry compat/collections/find.js
+779 silly gunzTarPerm extractEntry compat/collections/size.js
+780 silly gunzTarPerm extractEntry src/lib/jpeg/jcinit.c
+781 silly gunzTarPerm extractEntry src/lib/jpeg/jcmainct.c
+782 silly gunzTarPerm extractEntry src/lib/jpeg/jcmarker.c
+783 silly gunzTarPerm extractEntry compat/collections/filter.js
+784 silly gunzTarPerm extractEntry compat/collections/some.js
+785 silly gunzTarPerm extractEntry src/lib/jpeg/jcmaster.c
+786 silly gunzTarPerm extractEntry compat/collections/every.js
+787 silly gunzTarPerm extractEntry compat/collections/sortBy.js
+788 silly gunzTarPerm extractEntry src/lib/jpeg/jcomapi.c
+789 silly gunzTarPerm extractEntry src/lib/jpeg/jconfig.h
+790 silly gunzTarPerm extractEntry compat/collections/countBy.js
+791 silly gunzTarPerm extractEntry compat/collections/toArray.js
+792 silly gunzTarPerm extractEntry src/lib/jpeg/jcparam.c
+793 silly gunzTarPerm extractEntry src/lib/jpeg/jcprepct.c
+794 silly gunzTarPerm extractEntry compat/collections/contains.js
+795 silly gunzTarPerm extractEntry compat/collections/where.js
+796 silly gunzTarPerm extractEntry src/lib/jpeg/jcsample.c
+797 silly gunzTarPerm extractEntry src/lib/jpeg/jdapimin.c
+798 silly gunzTarPerm extractEntry compat/collections/max.js
+799 silly gunzTarPerm extractEntry compat/chaining/chain.js
+800 silly gunzTarPerm extractEntry src/lib/jpeg/jdapistd.c
+801 silly gunzTarPerm extractEntry src/lib/jpeg/jdarith.c
+802 silly gunzTarPerm extractEntry compat/chaining/tap.js
+803 silly gunzTarPerm extractEntry compat/chaining/wrapperChain.js
+804 silly gunzTarPerm extractEntry src/lib/jpeg/jdatadst.c
+805 silly gunzTarPerm extractEntry src/lib/jpeg/jdatasrc.c
+806 silly gunzTarPerm extractEntry src/lib/jpeg/jdcoefct.c
+807 silly gunzTarPerm extractEntry src/lib/jpeg/jdcolor.c
+808 silly gunzTarPerm extractEntry compat/chaining/wrapperToString.js
+809 silly gunzTarPerm extractEntry compat/chaining/wrapperValueOf.js
+810 silly gunzTarPerm extractEntry compat/utilities/constant.js
+811 silly gunzTarPerm extractEntry compat/utilities/noConflict.js
+812 silly gunzTarPerm extractEntry src/lib/jpeg/jdct.h
+813 silly gunzTarPerm extractEntry src/lib/jpeg/jddctmgr.c
+814 silly gunzTarPerm extractEntry compat/utilities/noop.js
+815 silly gunzTarPerm extractEntry compat/utilities/now.js
+816 silly gunzTarPerm extractEntry src/lib/jpeg/jaricom.c
+817 silly gunzTarPerm extractEntry src/lib/jpeg/jdinput.c
+818 silly gunzTarPerm extractEntry src/lib/jpeg/jdmainct.c
+819 silly gunzTarPerm extractEntry src/lib/jpeg/jdmarker.c
+820 silly gunzTarPerm extractEntry compat/utilities/parseInt.js
+821 silly gunzTarPerm extractEntry compat/utilities/mixin.js
+822 silly gunzTarPerm extractEntry compat/utilities/random.js
+823 silly gunzTarPerm extractEntry compat/utilities/result.js
+824 silly gunzTarPerm extractEntry src/lib/jpeg/jdmaster.c
+825 silly gunzTarPerm extractEntry compat/utilities/template.js
+826 silly gunzTarPerm extractEntry compat/utilities/templateSettings.js
+827 silly gunzTarPerm extractEntry src/lib/jpeg/jdmerge.c
+828 silly gunzTarPerm extractEntry src/lib/jpeg/jdpostct.c
+829 silly gunzTarPerm extractEntry compat/utilities/times.js
+830 silly gunzTarPerm extractEntry compat/utilities/identity.js
+831 silly gunzTarPerm extractEntry src/lib/jpeg/jdsample.c
+832 silly gunzTarPerm extractEntry src/lib/jpeg/jerror.c
+833 silly gunzTarPerm extractEntry compat/utilities/unescape.js
+834 silly gunzTarPerm extractEntry compat/utilities/escape.js
+835 silly gunzTarPerm extractEntry src/lib/jpeg/jerror.h
+836 silly gunzTarPerm extractEntry src/lib/jpeg/jfdctflt.c
+837 silly gunzTarPerm extractEntry compat/utilities/uniqueId.js
+838 silly gunzTarPerm extractEntry compat/utilities/property.js
+839 silly gunzTarPerm extractEntry src/lib/jpeg/jfdctfst.c
+840 silly gunzTarPerm extractEntry src/lib/jpeg/jfdctint.c
+841 silly gunzTarPerm extractEntry src/lib/jpeg/jidctflt.c
+842 silly gunzTarPerm extractEntry src/lib/jpeg/jidctfst.c
+843 silly gunzTarPerm extractEntry src/lib/jpeg/jidctint.c
+844 silly gunzTarPerm extractEntry compat/arrays/compact.js
+845 silly gunzTarPerm extractEntry compat/arrays/initial.js
+846 silly gunzTarPerm extractEntry src/lib/jpeg/jinclude.h
+847 silly gunzTarPerm extractEntry src/lib/jpeg/jmemmgr.c
+848 silly gunzTarPerm extractEntry src/lib/jpeg/jmemnobs.c
+849 silly gunzTarPerm extractEntry src/lib/jpeg/jmemsys.h
+850 silly gunzTarPerm extractEntry compat/arrays/intersection.js
+851 silly gunzTarPerm extractEntry compat/arrays/last.js
+852 silly gunzTarPerm extractEntry src/lib/jpeg/jmorecfg.h
+853 silly gunzTarPerm extractEntry src/lib/jpeg/jpegint.h
+854 silly gunzTarPerm extractEntry src/lib/jpeg/jpeglib.h
+855 silly gunzTarPerm extractEntry src/lib/jpeg/jquant1.c
+856 silly gunzTarPerm extractEntry src/lib/jpeg/jquant2.c
+857 silly gunzTarPerm extractEntry compat/arrays/lastIndexOf.js
+858 silly gunzTarPerm extractEntry compat/arrays/indexOf.js
+859 silly gunzTarPerm extractEntry src/lib/jpeg/jutils.c
+860 silly gunzTarPerm extractEntry src/lib/jpeg/jversion.h
+861 silly gunzTarPerm extractEntry src/lib/jpeg/jdhuff.c
+862 silly gunzTarPerm extractEntry src/lib/png/README
+863 silly gunzTarPerm extractEntry compat/arrays/range.js
+864 silly gunzTarPerm extractEntry compat/arrays/remove.js
+865 silly gunzTarPerm extractEntry src/lib/png/LICENSE
+866 silly gunzTarPerm extractEntry src/lib/png/png.c
+867 silly gunzTarPerm extractEntry compat/arrays/rest.js
+868 silly gunzTarPerm extractEntry compat/arrays/sortedIndex.js
+869 silly gunzTarPerm extractEntry src/lib/png/png.h
+870 silly gunzTarPerm extractEntry compat/arrays/union.js
+871 silly gunzTarPerm extractEntry compat/arrays/flatten.js
+872 silly gunzTarPerm extractEntry src/lib/png/pngconf.h
+873 silly gunzTarPerm extractEntry src/lib/png/pngdebug.h
+874 silly gunzTarPerm extractEntry compat/arrays/uniq.js
+875 silly gunzTarPerm extractEntry compat/arrays/first.js
+876 silly gunzTarPerm extractEntry src/lib/png/pngerror.c
+877 silly gunzTarPerm extractEntry src/lib/png/pngget.c
+878 silly gunzTarPerm extractEntry src/lib/png/pnginfo.h
+879 silly gunzTarPerm extractEntry src/lib/png/pngmem.c
+880 silly gunzTarPerm extractEntry compat/arrays/without.js
+881 silly gunzTarPerm extractEntry compat/arrays/findLastIndex.js
+882 silly gunzTarPerm extractEntry src/lib/png/pngpread.c
+883 silly gunzTarPerm extractEntry src/lib/png/pngwutil.c
+884 silly gunzTarPerm extractEntry compat/arrays/xor.js
+885 silly gunzTarPerm extractEntry compat/arrays/findIndex.js
+886 silly gunzTarPerm extractEntry src/lib/png/pngread.c
+887 silly gunzTarPerm extractEntry src/lib/png/pngrio.c
+888 silly gunzTarPerm extractEntry compat/arrays/zip.js
+889 silly gunzTarPerm extractEntry compat/arrays/difference.js
+890 silly gunzTarPerm extractEntry src/lib/png/pngrtran.c
+891 silly gunzTarPerm extractEntry compat/arrays/zipObject.js
+892 silly gunzTarPerm extractEntry compat/arrays/pull.js
+893 silly gunzTarPerm extractEntry src/lib/png/pngrutil.c
+894 silly gunzTarPerm extractEntry modern/utilities.js
+895 silly gunzTarPerm extractEntry modern/support.js
+896 silly gunzTarPerm extractEntry modern/chaining.js
+897 silly gunzTarPerm extractEntry modern/objects.js
+898 silly gunzTarPerm extractEntry src/lib/png/pngset.c
+899 silly gunzTarPerm extractEntry src/lib/png/pngstruct.h
+900 silly gunzTarPerm extractEntry modern/collections.js
+901 silly gunzTarPerm extractEntry modern/index.js
+902 silly gunzTarPerm extractEntry src/lib/png/pngtrans.c
+903 silly gunzTarPerm extractEntry src/lib/png/pngwio.c
+904 silly gunzTarPerm extractEntry src/lib/png/pngwrite.c
+905 silly gunzTarPerm extractEntry modern/arrays.js
+906 silly gunzTarPerm extractEntry modern/functions.js
+907 silly gunzTarPerm extractEntry src/lib/png/pngwtran.c
+908 silly gunzTarPerm extractEntry src/lib/png/pngpriv.h
+909 silly gunzTarPerm extractEntry src/lib/zlib/README
+910 silly gunzTarPerm extractEntry modern/functions/after.js
+911 silly gunzTarPerm extractEntry src/lib/zlib/zutil.h
+912 silly gunzTarPerm extractEntry modern/functions/compose.js
+913 silly gunzTarPerm extractEntry src/lib/zlib/compress.c
+914 silly gunzTarPerm extractEntry src/lib/zlib/crc32.c
+915 silly gunzTarPerm extractEntry src/lib/zlib/crc32.h
+916 silly gunzTarPerm extractEntry modern/functions/createCallback.js
+917 silly gunzTarPerm extractEntry modern/functions/curry.js
+918 silly gunzTarPerm extractEntry src/lib/zlib/deflate.c
+919 silly gunzTarPerm extractEntry src/lib/zlib/deflate.h
+920 silly gunzTarPerm extractEntry modern/functions/debounce.js
+921 silly gunzTarPerm extractEntry modern/functions/bindKey.js
+922 silly gunzTarPerm extractEntry src/lib/zlib/gzclose.c
+923 silly gunzTarPerm extractEntry src/lib/zlib/gzguts.h
+924 silly gunzTarPerm extractEntry src/lib/zlib/gzlib.c
+925 silly gunzTarPerm extractEntry src/lib/zlib/gzread.c
+926 silly gunzTarPerm extractEntry modern/functions/delay.js
+927 silly gunzTarPerm extractEntry modern/functions/memoize.js
+928 silly gunzTarPerm extractEntry src/lib/zlib/gzwrite.c
+929 silly gunzTarPerm extractEntry src/lib/zlib/infback.c
+930 silly gunzTarPerm extractEntry src/lib/zlib/adler32.c
+931 silly gunzTarPerm extractEntry src/lib/zlib/inffast.h
+932 silly gunzTarPerm extractEntry src/lib/zlib/inffixed.h
+933 silly gunzTarPerm extractEntry modern/functions/once.js
+934 silly gunzTarPerm extractEntry modern/functions/partial.js
+935 silly gunzTarPerm extractEntry src/lib/zlib/inflate.c
+936 silly gunzTarPerm extractEntry src/lib/zlib/inflate.h
+937 silly gunzTarPerm extractEntry src/lib/zlib/inftrees.c
+938 silly gunzTarPerm extractEntry modern/functions/partialRight.js
+939 silly gunzTarPerm extractEntry modern/functions/bindAll.js
+940 silly gunzTarPerm extractEntry src/lib/zlib/inftrees.h
+941 silly gunzTarPerm extractEntry src/lib/zlib/trees.c
+942 silly gunzTarPerm extractEntry src/lib/zlib/trees.h
+943 silly gunzTarPerm extractEntry modern/functions/throttle.js
+944 silly gunzTarPerm extractEntry modern/functions/bind.js
+945 silly gunzTarPerm extractEntry src/lib/zlib/uncompr.c
+946 silly gunzTarPerm extractEntry src/lib/zlib/zconf.h
+947 silly gunzTarPerm extractEntry src/lib/zlib/zlib.h
+948 silly gunzTarPerm extractEntry src/lib/zlib/zutil.c
+949 silly gunzTarPerm extractEntry modern/functions/wrap.js
+950 silly gunzTarPerm extractEntry modern/functions/defer.js
+951 silly gunzTarPerm extractEntry src/lib/zlib/inffast.c
+952 silly gunzTarPerm extractEntry src/win/unistd.h
+953 silly gunzTarPerm extractEntry DEVELOPMENT.md
+954 silly gunzTarPerm extractEntry tests/utils.js
+955 silly gunzTarPerm extractEntry tests/imgs.js
+956 silly gunzTarPerm extractEntry modern/internals/arrayPool.js
+957 silly gunzTarPerm extractEntry modern/internals/createCache.js
+958 silly gunzTarPerm extractEntry tests/02.operations/001.open.js
+959 silly gunzTarPerm extractEntry tests/02.operations/107.mirror.js
+960 silly gunzTarPerm extractEntry tests/02.operations/108.pad.js
+961 silly gunzTarPerm extractEntry tests/02.operations/109.border.js
+962 silly gunzTarPerm extractEntry modern/internals/createWrapper.js
+963 silly gunzTarPerm extractEntry modern/internals/escapeHtmlChar.js
+964 silly gunzTarPerm extractEntry tests/02.operations/110.sharpen.js
+965 silly gunzTarPerm extractEntry tests/02.operations/106.blur.js
+966 silly gunzTarPerm extractEntry tests/02.operations/112.lighten.js
+967 silly gunzTarPerm extractEntry tests/02.operations/113.darken.js
+968 silly gunzTarPerm extractEntry modern/internals/createAggregator.js
+969 silly gunzTarPerm extractEntry modern/internals/getArray.js
+970 silly gunzTarPerm extractEntry tests/02.operations/114.hue.js
+971 silly gunzTarPerm extractEntry tests/02.operations/115.hslaAdjust.js
+972 silly gunzTarPerm extractEntry tests/02.operations/116.fade.js
+973 silly gunzTarPerm extractEntry tests/02.operations/105.crop.js
+974 silly gunzTarPerm extractEntry tests/02.operations/116.opacify.js
+975 silly gunzTarPerm extractEntry modern/internals/getObject.js
+976 silly gunzTarPerm extractEntry modern/internals/htmlEscapes.js
+977 silly gunzTarPerm extractEntry tests/02.operations/104.rotate.js
+978 silly gunzTarPerm extractEntry tests/02.operations/117.paste.js
+979 silly gunzTarPerm extractEntry tests/02.operations/103.scale.js
+980 silly gunzTarPerm extractEntry tests/02.operations/118.setPixel.js
+981 silly gunzTarPerm extractEntry modern/internals/htmlUnescapes.js
+982 silly gunzTarPerm extractEntry modern/internals/isNative.js
+983 silly gunzTarPerm extractEntry tests/02.operations/102.resize.js
+984 silly gunzTarPerm extractEntry tests/02.operations/119.contain.js
+985 silly gunzTarPerm extractEntry tests/02.operations/101.writeFile.js
+986 silly gunzTarPerm extractEntry tests/02.operations/120.cover.js
+987 silly gunzTarPerm extractEntry modern/internals/compareAscending.js
+988 silly gunzTarPerm extractEntry modern/internals/keyPrefix.js
+989 silly gunzTarPerm extractEntry tests/02.operations/002.create.js
+990 silly gunzTarPerm extractEntry tests/02.operations/121.setMetadata.js
+991 silly gunzTarPerm extractEntry tests/02.operations/111.saturate.js
+992 silly gunzTarPerm extractEntry tests/03.safety/00.locks.js
+993 silly gunzTarPerm extractEntry modern/internals/charAtCallback.js
+994 silly gunzTarPerm extractEntry modern/internals/largeArraySize.js
+995 silly gunzTarPerm extractEntry tests/03.safety/01.releases.js
+996 silly gunzTarPerm extractEntry tests/03.safety/02.clone.js
+997 silly gunzTarPerm extractEntry tests/03.safety/03.extract.js
+998 silly gunzTarPerm extractEntry tests/04.batch/index.js
+999 silly gunzTarPerm extractEntry tests/01.getters/index.js
+1000 silly gunzTarPerm extractEntry modern/internals/cachePush.js
+1001 silly gunzTarPerm extractEntry modern/internals/lodashWrapper.js
+1002 silly gunzTarPerm extractEntry tests/NOTES.md
+1003 silly gunzTarPerm extractEntry tests/images/rgb.gif
+1004 silly gunzTarPerm extractEntry tests/images/gs.gif
+1005 silly gunzTarPerm extractEntry modern/internals/cacheIndexOf.js
+1006 silly gunzTarPerm extractEntry modern/internals/maxPoolSize.js
+1007 silly gunzTarPerm extractEntry tests/images/gs.png
+1008 silly gunzTarPerm extractEntry tests/images/hasMetadata.png
+1009 silly gunzTarPerm extractEntry modern/internals/baseUniq.js
+1010 silly gunzTarPerm extractEntry modern/internals/objectPool.js
+1011 silly gunzTarPerm extractEntry tests/images/invalid.gif
+1012 silly gunzTarPerm extractEntry modern/internals/baseRandom.js
+1013 silly gunzTarPerm extractEntry modern/internals/objectTypes.js
+1014 silly gunzTarPerm extractEntry tests/images/invalid.jpg
+1015 silly gunzTarPerm extractEntry tests/images/invalid.png
+1016 silly gunzTarPerm extractEntry tests/images/noMetadata.png
+1017 silly gunzTarPerm extractEntry modern/internals/baseMerge.js
+1018 silly gunzTarPerm extractEntry modern/internals/reEscapedHtml.js
+1019 silly gunzTarPerm extractEntry tests/images/gs.jpg
+1020 silly gunzTarPerm extractEntry tests/images/rgb.jpg
+1021 silly gunzTarPerm extractEntry modern/internals/baseIsEqual.js
+1022 silly gunzTarPerm extractEntry modern/internals/reInterpolate.js
+1023 silly gunzTarPerm extractEntry tests/images/rgb.png
+1024 silly gunzTarPerm extractEntry modern/internals/baseIndexOf.js
+1025 silly gunzTarPerm extractEntry modern/internals/reUnescapedHtml.js
+1026 silly gunzTarPerm extractEntry modern/internals/baseFlatten.js
+1027 silly gunzTarPerm extractEntry modern/internals/releaseArray.js
+1028 silly gunzTarPerm extractEntry tests/images/rgbgif
+1029 silly gunzTarPerm extractEntry modern/internals/baseDifference.js
+1030 silly gunzTarPerm extractEntry modern/internals/releaseObject.js
+1031 silly gunzTarPerm extractEntry tests/images/rgbjpg
+1032 silly gunzTarPerm extractEntry modern/internals/baseCreateWrapper.js
+1033 silly gunzTarPerm extractEntry modern/internals/setBindData.js
+1034 silly gunzTarPerm extractEntry tests/images/rgbpng
+1035 silly gunzTarPerm extractEntry modern/internals/baseCreateCallback.js
+1036 silly gunzTarPerm extractEntry modern/internals/shimIsPlainObject.js
+1037 silly gunzTarPerm extractEntry modern/internals/baseCreate.js
+1038 silly gunzTarPerm extractEntry modern/internals/shimKeys.js
+1039 silly gunzTarPerm extractEntry modern/internals/baseClone.js
+1040 silly gunzTarPerm extractEntry modern/internals/slice.js
+1041 silly gunzTarPerm extractEntry modern/internals/baseBind.js
+1042 silly gunzTarPerm extractEntry modern/internals/unescapeHtmlChar.js
+1043 silly gunzTarPerm extractEntry modern/internals/escapeStringChar.js
+1044 silly gunzTarPerm extractEntry modern/objects/assign.js
+1045 silly gunzTarPerm extractEntry modern/objects/isBoolean.js
+1046 silly gunzTarPerm extractEntry modern/objects/isDate.js
+1047 silly gunzTarPerm extractEntry tests/images/trans.gif
+1048 silly gunzTarPerm extractEntry modern/objects/isElement.js
+1049 silly gunzTarPerm extractEntry modern/objects/isArray.js
+1050 silly gunzTarPerm extractEntry tests/images/trans.png
+1051 silly gunzTarPerm extractEntry modern/objects/isEqual.js
+1052 silly gunzTarPerm extractEntry modern/objects/isFinite.js
+1053 silly gunzTarPerm extractEntry modern/objects/isFunction.js
+1054 silly gunzTarPerm extractEntry modern/objects/isNaN.js
+1055 silly gunzTarPerm extractEntry tests/00.argsValidation/001.open.js
+1056 silly gunzTarPerm extractEntry tests/00.argsValidation/107.image.pad.js
+1057 silly gunzTarPerm extractEntry tests/00.argsValidation/108.image.border.js
+1058 silly gunzTarPerm extractEntry modern/objects/isNull.js
+1059 silly gunzTarPerm extractEntry modern/objects/isArguments.js
+1060 silly gunzTarPerm extractEntry tests/00.argsValidation/109.image.paste.js
+1061 silly gunzTarPerm extractEntry tests/00.argsValidation/106.image.mirror.js
+1062 silly gunzTarPerm extractEntry tests/00.argsValidation/110.image.setPixel.js
+1063 silly gunzTarPerm extractEntry tests/00.argsValidation/201.batch.resize.js
+1064 silly gunzTarPerm extractEntry tests/00.argsValidation/202.batch.scale.js
+1065 silly gunzTarPerm extractEntry tests/00.argsValidation/203.batch.rotate.js
+1066 silly gunzTarPerm extractEntry tests/00.argsValidation/204.batch.toBuffer.js
+1067 silly gunzTarPerm extractEntry tests/00.argsValidation/105.image.writeFile.js
+1068 silly gunzTarPerm extractEntry tests/00.argsValidation/205.batch.writeFile.js
+1069 silly gunzTarPerm extractEntry tests/00.argsValidation/104.image.toBuffer.js
+1070 silly gunzTarPerm extractEntry tests/00.argsValidation/206.batch.mirror.js
+1071 silly gunzTarPerm extractEntry tests/00.argsValidation/103.image.rotate.js
+1072 silly gunzTarPerm extractEntry tests/00.argsValidation/207.batch.pad.js
+1073 silly gunzTarPerm extractEntry tests/00.argsValidation/102.image.scale.js
+1074 silly gunzTarPerm extractEntry tests/00.argsValidation/208.batch.border.js
+1075 silly gunzTarPerm extractEntry tests/00.argsValidation/101.image.resize.js
+1076 silly gunzTarPerm extractEntry tests/00.argsValidation/209.batch.paste.js
+1077 silly gunzTarPerm extractEntry tests/00.argsValidation/002.create.js
+1078 silly gunzTarPerm extractEntry tests/00.argsValidation/210.batch.setPixel.js
+1079 silly gunzTarPerm extractEntry tests/00.argsValidation/110.image.getPixel.js
+1080 silly gunzTarPerm extractEntry tests/mocha.opts
+1081 silly gunzTarPerm extractEntry tests/05.stress/index.js
+1082 silly gunzTarPerm extractEntry modern/objects/isNumber.js
+1083 silly gunzTarPerm extractEntry modern/objects/invert.js
+1084 silly gunzTarPerm extractEntry modern/objects/isObject.js
+1085 silly gunzTarPerm extractEntry modern/objects/has.js
+1086 silly gunzTarPerm extractEntry modern/objects/isPlainObject.js
+1087 silly gunzTarPerm extractEntry modern/objects/functions.js
+1088 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04/node_modules is being purged
+1089 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04/node_modules
+1090 silly gunzTarPerm extractEntry modern/objects/isRegExp.js
+1091 silly gunzTarPerm extractEntry modern/objects/forOwnRight.js
+1092 silly gunzTarPerm extractEntry modern/objects/isString.js
+1093 silly gunzTarPerm extractEntry modern/objects/forOwn.js
+1094 silly gunzTarPerm extractEntry modern/objects/isUndefined.js
+1095 silly gunzTarPerm extractEntry modern/objects/forInRight.js
+1096 silly gunzTarPerm extractEntry modern/objects/keys.js
+1097 silly gunzTarPerm extractEntry modern/objects/forIn.js
+1098 silly gunzTarPerm extractEntry modern/objects/mapValues.js
+1099 silly gunzTarPerm extractEntry modern/objects/findLastKey.js
+1100 silly gunzTarPerm extractEntry modern/objects/merge.js
+1101 silly gunzTarPerm extractEntry modern/objects/findKey.js
+1102 silly gunzTarPerm extractEntry modern/objects/omit.js
+1103 silly gunzTarPerm extractEntry modern/objects/defaults.js
+1104 silly gunzTarPerm extractEntry modern/objects/pairs.js
+1105 silly gunzTarPerm extractEntry modern/objects/create.js
+1106 silly gunzTarPerm extractEntry modern/objects/pick.js
+1107 silly gunzTarPerm extractEntry modern/objects/cloneDeep.js
+1108 silly gunzTarPerm extractEntry modern/objects/transform.js
+1109 silly gunzTarPerm extractEntry modern/objects/clone.js
+1110 silly gunzTarPerm extractEntry modern/objects/values.js
+1111 silly gunzTarPerm extractEntry modern/objects/isEmpty.js
+1112 silly gunzTarPerm extractEntry modern/collections/at.js
+1113 silly gunzTarPerm extractEntry modern/collections/groupBy.js
+1114 silly gunzTarPerm extractEntry modern/collections/indexBy.js
+1115 silly gunzTarPerm extractEntry modern/collections/invoke.js
+1116 silly gunzTarPerm extractEntry modern/collections/map.js
+1117 silly gunzTarPerm extractEntry modern/collections/forEachRight.js
+1118 silly gunzTarPerm extractEntry modern/collections/min.js
+1119 silly gunzTarPerm extractEntry modern/collections/pluck.js
+1120 silly gunzTarPerm extractEntry modern/collections/reduce.js
+1121 silly gunzTarPerm extractEntry modern/collections/reduceRight.js
+1122 silly gunzTarPerm extractEntry modern/collections/reject.js
+1123 silly gunzTarPerm extractEntry modern/collections/forEach.js
+1124 silly gunzTarPerm extractEntry modern/collections/sample.js
+1125 silly gunzTarPerm extractEntry modern/collections/findLast.js
+1126 silly gunzTarPerm extractEntry modern/collections/shuffle.js
+1127 silly gunzTarPerm extractEntry modern/collections/find.js
+1128 silly gunzTarPerm extractEntry modern/collections/size.js
+1129 silly gunzTarPerm extractEntry modern/collections/filter.js
+1130 silly gunzTarPerm extractEntry modern/collections/some.js
+1131 silly gunzTarPerm extractEntry modern/collections/every.js
+1132 silly gunzTarPerm extractEntry modern/collections/sortBy.js
+1133 silly gunzTarPerm extractEntry modern/collections/countBy.js
+1134 silly gunzTarPerm extractEntry modern/collections/toArray.js
+1135 silly gunzTarPerm extractEntry modern/collections/contains.js
+1136 silly gunzTarPerm extractEntry modern/collections/where.js
+1137 silly gunzTarPerm extractEntry modern/collections/max.js
+1138 silly gunzTarPerm extractEntry modern/chaining/chain.js
+1139 silly gunzTarPerm extractEntry modern/chaining/tap.js
+1140 silly gunzTarPerm extractEntry modern/chaining/wrapperChain.js
+1141 silly gunzTarPerm extractEntry modern/chaining/wrapperToString.js
+1142 silly gunzTarPerm extractEntry modern/chaining/wrapperValueOf.js
+1143 silly gunzTarPerm extractEntry modern/utilities/constant.js
+1144 silly gunzTarPerm extractEntry modern/utilities/noConflict.js
+1145 silly gunzTarPerm extractEntry modern/utilities/noop.js
+1146 silly gunzTarPerm extractEntry modern/utilities/now.js
+1147 silly gunzTarPerm extractEntry modern/utilities/parseInt.js
+1148 silly gunzTarPerm extractEntry modern/utilities/mixin.js
+1149 silly gunzTarPerm extractEntry modern/utilities/random.js
+1150 silly gunzTarPerm extractEntry modern/utilities/result.js
+1151 silly gunzTarPerm extractEntry modern/utilities/template.js
+1152 silly gunzTarPerm extractEntry modern/utilities/templateSettings.js
+1153 silly gunzTarPerm extractEntry modern/utilities/times.js
+1154 silly gunzTarPerm extractEntry modern/utilities/identity.js
+1155 silly gunzTarPerm extractEntry modern/utilities/unescape.js
+1156 silly gunzTarPerm extractEntry modern/utilities/escape.js
+1157 silly gunzTarPerm extractEntry modern/utilities/uniqueId.js
+1158 silly gunzTarPerm extractEntry modern/utilities/property.js
+1159 silly gunzTarPerm extractEntry modern/arrays/compact.js
+1160 silly gunzTarPerm extractEntry modern/arrays/initial.js
+1161 silly gunzTarPerm extractEntry modern/arrays/intersection.js
+1162 silly gunzTarPerm extractEntry modern/arrays/last.js
+1163 silly gunzTarPerm extractEntry modern/arrays/lastIndexOf.js
+1164 silly gunzTarPerm extractEntry modern/arrays/indexOf.js
+1165 silly gunzTarPerm extractEntry modern/arrays/range.js
+1166 silly gunzTarPerm extractEntry modern/arrays/remove.js
+1167 silly gunzTarPerm extractEntry modern/arrays/rest.js
+1168 silly gunzTarPerm extractEntry modern/arrays/sortedIndex.js
+1169 silly gunzTarPerm extractEntry modern/arrays/union.js
+1170 silly gunzTarPerm extractEntry modern/arrays/flatten.js
+1171 silly gunzTarPerm extractEntry modern/arrays/uniq.js
+1172 silly gunzTarPerm extractEntry modern/arrays/first.js
+1173 silly gunzTarPerm extractEntry modern/arrays/without.js
+1174 silly gunzTarPerm extractEntry modern/arrays/findLastIndex.js
+1175 silly gunzTarPerm extractEntry modern/arrays/xor.js
+1176 silly gunzTarPerm extractEntry modern/arrays/findIndex.js
+1177 silly gunzTarPerm extractEntry modern/arrays/zip.js
+1178 silly gunzTarPerm extractEntry modern/arrays/difference.js
+1179 silly gunzTarPerm extractEntry modern/arrays/zipObject.js
+1180 silly gunzTarPerm extractEntry modern/arrays/pull.js
+1181 silly gunzTarPerm extractEntry underscore/utilities.js
+1182 silly gunzTarPerm extractEntry underscore/support.js
+1183 silly gunzTarPerm extractEntry underscore/chaining.js
+1184 silly gunzTarPerm extractEntry underscore/objects.js
+1185 silly gunzTarPerm extractEntry underscore/collections.js
+1186 silly gunzTarPerm extractEntry underscore/index.js
+1187 silly gunzTarPerm extractEntry underscore/arrays.js
+1188 silly gunzTarPerm extractEntry underscore/functions.js
+1189 silly gunzTarPerm extractEntry underscore/functions/after.js
+1190 silly gunzTarPerm extractEntry underscore/functions/compose.js
+1191 silly gunzTarPerm extractEntry underscore/functions/createCallback.js
+1192 silly gunzTarPerm extractEntry underscore/functions/debounce.js
+1193 silly gunzTarPerm extractEntry underscore/functions/bindAll.js
+1194 silly gunzTarPerm extractEntry underscore/functions/delay.js
+1195 silly gunzTarPerm extractEntry underscore/functions/memoize.js
+1196 silly gunzTarPerm extractEntry underscore/functions/once.js
+1197 silly gunzTarPerm extractEntry underscore/functions/partial.js
+1198 silly gunzTarPerm extractEntry underscore/functions/throttle.js
+1199 silly gunzTarPerm extractEntry underscore/functions/bind.js
+1200 silly gunzTarPerm extractEntry underscore/functions/wrap.js
+1201 silly gunzTarPerm extractEntry underscore/functions/defer.js
+1202 silly gunzTarPerm extractEntry underscore/internals/baseBind.js
+1203 silly gunzTarPerm extractEntry underscore/internals/compareAscending.js
+1204 silly gunzTarPerm extractEntry underscore/internals/createAggregator.js
+1205 silly gunzTarPerm extractEntry underscore/internals/createWrapper.js
+1206 silly gunzTarPerm extractEntry underscore/internals/escapeHtmlChar.js
+1207 silly gunzTarPerm extractEntry underscore/internals/baseUniq.js
+1208 silly gunzTarPerm extractEntry underscore/internals/htmlEscapes.js
+1209 silly gunzTarPerm extractEntry underscore/internals/htmlUnescapes.js
+1210 silly gunzTarPerm extractEntry underscore/internals/indicatorObject.js
+1211 silly gunzTarPerm extractEntry underscore/internals/isNative.js
+1212 silly gunzTarPerm extractEntry underscore/internals/keyPrefix.js
+1213 silly gunzTarPerm extractEntry underscore/internals/baseRandom.js
+1214 silly gunzTarPerm extractEntry underscore/internals/lodashWrapper.js
+1215 silly gunzTarPerm extractEntry underscore/internals/baseIsEqual.js
+1216 silly gunzTarPerm extractEntry underscore/internals/objectTypes.js
+1217 silly gunzTarPerm extractEntry underscore/internals/baseIndexOf.js
+1218 silly gunzTarPerm extractEntry underscore/internals/reEscapedHtml.js
+1219 silly gunzTarPerm extractEntry underscore/internals/baseFlatten.js
+1220 silly gunzTarPerm extractEntry underscore/internals/reInterpolate.js
+1221 silly gunzTarPerm extractEntry underscore/internals/baseDifference.js
+1222 silly gunzTarPerm extractEntry underscore/internals/reUnescapedHtml.js
+1223 silly gunzTarPerm extractEntry underscore/internals/baseCreateWrapper.js
+1224 silly gunzTarPerm extractEntry underscore/internals/shimKeys.js
+1225 silly gunzTarPerm extractEntry underscore/internals/baseCreateCallback.js
+1226 silly gunzTarPerm extractEntry underscore/internals/slice.js
+1227 silly gunzTarPerm extractEntry underscore/internals/baseCreate.js
+1228 silly gunzTarPerm extractEntry underscore/internals/unescapeHtmlChar.js
+1229 silly gunzTarPerm extractEntry underscore/internals/escapeStringChar.js
+1230 silly gunzTarPerm extractEntry underscore/objects/assign.js
+1231 silly gunzTarPerm extractEntry underscore/objects/isDate.js
+1232 silly gunzTarPerm extractEntry underscore/objects/isElement.js
+1233 silly gunzTarPerm extractEntry underscore/objects/isEmpty.js
+1234 silly gunzTarPerm extractEntry underscore/objects/isBoolean.js
+1235 silly gunzTarPerm extractEntry underscore/objects/isFinite.js
+1236 silly gunzTarPerm extractEntry underscore/objects/isFunction.js
+1237 silly gunzTarPerm extractEntry underscore/objects/isNaN.js
+1238 silly gunzTarPerm extractEntry underscore/objects/isNull.js
+1239 silly gunzTarPerm extractEntry underscore/objects/isNumber.js
+1240 silly gunzTarPerm extractEntry underscore/objects/isArray.js
+1241 silly gunzTarPerm extractEntry underscore/objects/isObject.js
+1242 silly gunzTarPerm extractEntry underscore/objects/isArguments.js
+1243 silly gunzTarPerm extractEntry underscore/objects/isRegExp.js
+1244 silly gunzTarPerm extractEntry underscore/objects/invert.js
+1245 silly gunzTarPerm extractEntry underscore/objects/isString.js
+1246 silly gunzTarPerm extractEntry underscore/objects/has.js
+1247 silly gunzTarPerm extractEntry underscore/objects/isUndefined.js
+1248 silly gunzTarPerm extractEntry underscore/objects/functions.js
+1249 silly gunzTarPerm extractEntry underscore/objects/keys.js
+1250 silly gunzTarPerm extractEntry underscore/objects/forOwn.js
+1251 silly gunzTarPerm extractEntry underscore/objects/omit.js
+1252 silly gunzTarPerm extractEntry underscore/objects/forIn.js
+1253 silly gunzTarPerm extractEntry underscore/objects/pairs.js
+1254 silly gunzTarPerm extractEntry underscore/objects/defaults.js
+1255 silly gunzTarPerm extractEntry underscore/objects/pick.js
+1256 silly gunzTarPerm extractEntry underscore/objects/clone.js
+1257 silly gunzTarPerm extractEntry underscore/objects/values.js
+1258 silly gunzTarPerm extractEntry underscore/objects/isEqual.js
+1259 silly gunzTarPerm extractEntry underscore/collections/contains.js
+1260 silly gunzTarPerm extractEntry underscore/collections/indexBy.js
+1261 silly gunzTarPerm extractEntry underscore/collections/invoke.js
+1262 silly gunzTarPerm extractEntry underscore/collections/map.js
+1263 silly gunzTarPerm extractEntry underscore/collections/groupBy.js
+1264 silly gunzTarPerm extractEntry underscore/collections/min.js
+1265 silly gunzTarPerm extractEntry underscore/collections/pluck.js
+1266 silly gunzTarPerm extractEntry underscore/collections/reduce.js
+1267 silly gunzTarPerm extractEntry underscore/collections/reduceRight.js
+1268 silly gunzTarPerm extractEntry underscore/collections/reject.js
+1269 silly gunzTarPerm extractEntry underscore/collections/forEachRight.js
+1270 silly gunzTarPerm extractEntry underscore/collections/sample.js
+1271 silly gunzTarPerm extractEntry underscore/collections/forEach.js
+1272 silly gunzTarPerm extractEntry underscore/collections/shuffle.js
+1273 silly gunzTarPerm extractEntry underscore/collections/findWhere.js
+1274 silly gunzTarPerm extractEntry underscore/collections/size.js
+1275 silly gunzTarPerm extractEntry underscore/collections/find.js
+1276 silly gunzTarPerm extractEntry underscore/collections/some.js
+1277 silly gunzTarPerm extractEntry underscore/collections/filter.js
+1278 silly gunzTarPerm extractEntry underscore/collections/sortBy.js
+1279 silly gunzTarPerm extractEntry underscore/collections/every.js
+1280 silly gunzTarPerm extractEntry underscore/collections/toArray.js
+1281 silly gunzTarPerm extractEntry underscore/collections/countBy.js
+1282 silly gunzTarPerm extractEntry underscore/collections/where.js
+1283 silly gunzTarPerm extractEntry underscore/collections/max.js
+1284 silly gunzTarPerm extractEntry underscore/chaining/chain.js
+1285 silly gunzTarPerm extractEntry underscore/chaining/tap.js
+1286 silly gunzTarPerm extractEntry underscore/chaining/wrapperChain.js
+1287 silly gunzTarPerm extractEntry underscore/chaining/wrapperValueOf.js
+1288 silly gunzTarPerm extractEntry underscore/utilities/escape.js
+1289 silly gunzTarPerm extractEntry underscore/utilities/noConflict.js
+1290 silly gunzTarPerm extractEntry underscore/utilities/noop.js
+1291 silly gunzTarPerm extractEntry underscore/utilities/now.js
+1292 silly gunzTarPerm extractEntry underscore/utilities/property.js
+1293 silly gunzTarPerm extractEntry underscore/utilities/mixin.js
+1294 silly gunzTarPerm extractEntry underscore/utilities/result.js
+1295 silly gunzTarPerm extractEntry underscore/utilities/template.js
+1296 silly gunzTarPerm extractEntry underscore/utilities/templateSettings.js
+1297 silly gunzTarPerm extractEntry underscore/utilities/times.js
+1298 silly gunzTarPerm extractEntry underscore/utilities/unescape.js
+1299 silly gunzTarPerm extractEntry underscore/utilities/identity.js
+1300 silly gunzTarPerm extractEntry underscore/utilities/uniqueId.js
+1301 silly gunzTarPerm extractEntry underscore/utilities/random.js
+1302 silly gunzTarPerm extractEntry underscore/arrays/compact.js
+1303 silly gunzTarPerm extractEntry underscore/arrays/initial.js
+1304 silly gunzTarPerm extractEntry underscore/arrays/intersection.js
+1305 silly gunzTarPerm extractEntry underscore/arrays/last.js
+1306 silly gunzTarPerm extractEntry underscore/arrays/indexOf.js
+1307 silly gunzTarPerm extractEntry underscore/arrays/range.js
+1308 silly gunzTarPerm extractEntry underscore/arrays/rest.js
+1309 silly gunzTarPerm extractEntry underscore/arrays/sortedIndex.js
+1310 silly gunzTarPerm extractEntry underscore/arrays/union.js
+1311 silly gunzTarPerm extractEntry underscore/arrays/uniq.js
+1312 silly gunzTarPerm extractEntry underscore/arrays/flatten.js
+1313 silly gunzTarPerm extractEntry underscore/arrays/without.js
+1314 silly gunzTarPerm extractEntry underscore/arrays/first.js
+1315 silly gunzTarPerm extractEntry underscore/arrays/zip.js
+1316 silly gunzTarPerm extractEntry underscore/arrays/difference.js
+1317 silly gunzTarPerm extractEntry underscore/arrays/zipObject.js
+1318 silly gunzTarPerm extractEntry underscore/arrays/lastIndexOf.js
+1319 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf/node_modules is being purged
+1320 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf/node_modules
+1321 silly gentlyRm /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9/node_modules is being purged
+1322 verbose gentlyRm don't care about contents; nuking /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9/node_modules
+1323 silly doParallel preinstall 5
+1324 silly preinstall lodash-node@2.4.1 /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9
+1325 info lifecycle lodash-node@2.4.1~preinstall: lodash-node@2.4.1
+1326 silly preinstall bindings@1.3.0 /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e
+1327 info lifecycle bindings@1.3.0~preinstall: bindings@1.3.0
+1328 silly preinstall decree@0.0.6 /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9
+1329 info lifecycle decree@0.0.6~preinstall: decree@0.0.6
+1330 silly preinstall async@2.6.0 /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04
+1331 info lifecycle async@2.6.0~preinstall: async@2.6.0
+1332 silly preinstall lwip@0.0.9 /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf
+1333 info lifecycle lwip@0.0.9~preinstall: lwip@0.0.9
+1334 silly lifecycle lodash-node@2.4.1~preinstall: no script for preinstall, continuing
+1335 silly lifecycle bindings@1.3.0~preinstall: no script for preinstall, continuing
+1336 silly lifecycle decree@0.0.6~preinstall: no script for preinstall, continuing
+1337 silly lifecycle async@2.6.0~preinstall: no script for preinstall, continuing
+1338 silly lifecycle lwip@0.0.9~preinstall: no script for preinstall, continuing
+1339 silly doReverseSerial remove 0
+1340 silly doSerial move 0
+1341 silly doSerial finalize 5
+1342 silly finalize /Users/softsquare/Documents/pdf-img/node_modules/lodash-node
+1343 silly finalize /Users/softsquare/Documents/pdf-img/node_modules/bindings
+1344 silly finalize /Users/softsquare/Documents/pdf-img/node_modules/decree
+1345 silly finalize /Users/softsquare/Documents/pdf-img/node_modules/lwip/node_modules/async
+1346 silly finalize /Users/softsquare/Documents/pdf-img/node_modules/lwip
+1347 silly doSerial build 5
+1348 silly build lodash-node@2.4.1
+1349 info linkStuff lodash-node@2.4.1
+1350 silly linkStuff lodash-node@2.4.1 has /Users/softsquare/Documents/pdf-img/node_modules as its parent node_modules
+1351 verbose linkBins lodash-node@2.4.1
+1352 verbose linkMans lodash-node@2.4.1
+1353 silly build bindings@1.3.0
+1354 info linkStuff bindings@1.3.0
+1355 silly linkStuff bindings@1.3.0 has /Users/softsquare/Documents/pdf-img/node_modules as its parent node_modules
+1356 verbose linkBins bindings@1.3.0
+1357 verbose linkMans bindings@1.3.0
+1358 silly build decree@0.0.6
+1359 info linkStuff decree@0.0.6
+1360 silly linkStuff decree@0.0.6 has /Users/softsquare/Documents/pdf-img/node_modules as its parent node_modules
+1361 verbose linkBins decree@0.0.6
+1362 verbose linkMans decree@0.0.6
+1363 silly build async@2.6.0
+1364 info linkStuff async@2.6.0
+1365 silly linkStuff async@2.6.0 has /Users/softsquare/Documents/pdf-img/node_modules/lwip/node_modules as its parent node_modules
+1366 verbose linkBins async@2.6.0
+1367 verbose linkMans async@2.6.0
+1368 silly build lwip@0.0.9
+1369 info linkStuff lwip@0.0.9
+1370 silly linkStuff lwip@0.0.9 has /Users/softsquare/Documents/pdf-img/node_modules as its parent node_modules
+1371 verbose linkBins lwip@0.0.9
+1372 verbose linkMans lwip@0.0.9
+1373 silly doSerial global-link 0
+1374 silly doParallel update-linked 0
+1375 silly doSerial install 5
+1376 silly install lodash-node@2.4.1 /Users/softsquare/Documents/pdf-img/node_modules/.staging/lodash-node-31a146b9
+1377 info lifecycle lodash-node@2.4.1~install: lodash-node@2.4.1
+1378 silly lifecycle lodash-node@2.4.1~install: no script for install, continuing
+1379 silly install bindings@1.3.0 /Users/softsquare/Documents/pdf-img/node_modules/.staging/bindings-2510043e
+1380 info lifecycle bindings@1.3.0~install: bindings@1.3.0
+1381 silly lifecycle bindings@1.3.0~install: no script for install, continuing
+1382 silly install decree@0.0.6 /Users/softsquare/Documents/pdf-img/node_modules/.staging/decree-a61b06b9
+1383 info lifecycle decree@0.0.6~install: decree@0.0.6
+1384 silly lifecycle decree@0.0.6~install: no script for install, continuing
+1385 silly install async@2.6.0 /Users/softsquare/Documents/pdf-img/node_modules/.staging/async-4eea0b04
+1386 info lifecycle async@2.6.0~install: async@2.6.0
+1387 silly lifecycle async@2.6.0~install: no script for install, continuing
+1388 silly install lwip@0.0.9 /Users/softsquare/Documents/pdf-img/node_modules/.staging/lwip-81949adf
+1389 info lifecycle lwip@0.0.9~install: lwip@0.0.9
+1390 verbose lifecycle lwip@0.0.9~install: unsafe-perm in lifecycle true
+1391 verbose lifecycle lwip@0.0.9~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/softsquare/Documents/pdf-img/node_modules/lwip/node_modules/.bin:/Users/softsquare/Documents/pdf-img/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+1392 verbose lifecycle lwip@0.0.9~install: CWD: /Users/softsquare/Documents/pdf-img/node_modules/lwip
+1393 silly lifecycle lwip@0.0.9~install: Args: [ '-c', 'node-gyp rebuild' ]
+1394 silly lifecycle lwip@0.0.9~install: Returned: code: 1  signal: null
+1395 info lifecycle lwip@0.0.9~install: Failed to exec install script
+1396 verbose unlock done using /Users/softsquare/.npm/_locks/staging-a19879b5114cd5f3.lock for /Users/softsquare/Documents/pdf-img/node_modules/.staging
+1397 silly rollbackFailedOptional Starting
+1398 silly rollbackFailedOptional Finishing
+1399 silly runTopLevelLifecycles Finishing
+1400 silly install printInstalled
+1401 warn heroku-pdf-image-app@1.0.0 No description
+1402 verbose If you need help, you may report this error at:
+1402 verbose     <https://github.com/npm/npm/issues>
+1403 warn heroku-pdf-image-app@1.0.0 No repository field.
+1404 verbose If you need help, you may report this error at:
+1404 verbose     <https://github.com/npm/npm/issues>
+1405 verbose stack Error: lwip@0.0.9 install: `node-gyp rebuild`
+1405 verbose stack Exit status 1
+1405 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+1405 verbose stack     at emitTwo (events.js:106:13)
+1405 verbose stack     at EventEmitter.emit (events.js:191:7)
+1405 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+1405 verbose stack     at emitTwo (events.js:106:13)
+1405 verbose stack     at ChildProcess.emit (events.js:191:7)
+1405 verbose stack     at maybeClose (internal/child_process.js:920:16)
+1405 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+1406 verbose pkgid lwip@0.0.9
+1407 verbose cwd /Users/softsquare/Documents/pdf-img
+1408 error Darwin 17.0.0
+1409 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "lwip"
+1410 error node v6.11.4
+1411 error npm  v3.10.10
+1412 error code ELIFECYCLE
+1413 error lwip@0.0.9 install: `node-gyp rebuild`
+1413 error Exit status 1
+1414 error Failed at the lwip@0.0.9 install script 'node-gyp rebuild'.
+1414 error Make sure you have the latest version of node.js and npm installed.
+1414 error If you do, this is most likely a problem with the lwip package,
+1414 error not with npm itself.
+1414 error Tell the author that this fails on your system:
+1414 error     node-gyp rebuild
+1414 error You can get information on how to open an issue for this project with:
+1414 error     npm bugs lwip
+1414 error Or if that isn't available, you can get their info via:
+1414 error     npm owner ls lwip
+1414 error There is likely additional logging output above.
+1415 verbose exit [ 1, true ]
